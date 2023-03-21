@@ -73,7 +73,10 @@ body {
     overflow-x: hidden;
 }
 p {
-    color: $paragraph-color; 
+    color:#5A5050;
+    font-weight: 600;
+    font-size: 18px; 
+
 }
 a {
     display: inline-block;
@@ -7200,21 +7203,31 @@ left: -40px;
 }
 
 .first-section{
-    background-image: url('../TAMS\ imgs/hero-bg-shape.svg');
+    background-image: url('../TBMS/Vector-bg-1.svg');
     width: 100%;
-    height: 100vh;
+    height: 150vh;
     background-size: cover;
     background-repeat: no-repeat;
+    background-position: bottom;
+    .first-row{
+        height: 90vh;
+        align-items: center;
+        @media(min-width:1350px){
+            height: 85vh;
+        }
+        @media(min-width:1550px){
+            height: 65vh;
+        }
+    }
     .first-section-content{
         height: 100%;
-        align-items: center;
-        display: flex;
+        display: grid;
         padding: 15px 20px;
         @media(max-width:767px){
             height: 70%;
         }
         h2{
-            font-size: 42px;
+            font-size: 55px;
             line-height: 1.2;
             font-weight: 700;
             padding-bottom: 15px;
@@ -7222,19 +7235,18 @@ left: -40px;
                 font-size: 38px;
             }
         }
-       .laptop-view{
-        margin-top: 16rem;
-       } 
-    }
-    .first-section-image{
-        .first-section_content{
-            font-weight: 700;
-            font-size: 16px;
-            line-height: 30px;
-            padding: 20px 0px;
-        }
        
     }
+        .first-section_content{
+    font-size: 39px;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    -webkit-text-stroke: 1px #ffff;
+    -webkit-text-fill-color: #189795;
+    font-weight: 700;
+    font-style: italic;
+
+        }
+       
     .gare-circle-low{
         position: absolute;
         bottom: 0;
@@ -7497,6 +7509,10 @@ left: -40px;
     .card-flex{
         display: flex;
         flex-wrap: wrap;
+        p{
+            font-size: 14px;
+            font-weight: 500;
+        }
     }
     .card-content{
         display: grid;
@@ -8006,6 +8022,7 @@ position: relative;
     display: inline-block;
     position: relative;
     padding-bottom: 5px;
+
     &.second-session-text-tammina{
         border-bottom: 2px solid #ffff;
         }
