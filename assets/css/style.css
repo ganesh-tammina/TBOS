@@ -6847,10 +6847,15 @@ area {
 .first-section {
   background-image: url("../TBMS/Vector-bg-1.svg");
   width: 100%;
-  height: 150vh;
+  height: auto;
   background-size: cover;
   background-repeat: no-repeat;
   background-position: bottom;
+}
+@media (min-width: 992px) {
+  .first-section {
+    height: 160vh;
+  }
 }
 .first-section .first-row {
   height: 90vh;
@@ -6886,6 +6891,16 @@ area {
   .first-section .first-section-content h2 {
     font-size: 38px;
   }
+}
+.first-section .first-section-content .first-section-image {
+  background-image: url("../TBMS/Mockup-Home.svg");
+  width: 68%;
+  height: 80%;
+  position: absolute;
+  background-repeat: no-repeat;
+  background-position: right;
+  right: 7em;
+  background-size: contain;
 }
 .first-section .first-section_content {
   font-size: 39px;
@@ -7090,16 +7105,6 @@ area {
   background-repeat: no-repeat;
   background-position: bottom;
   background-size: contain;
-}
-.second-session .second-session-before::before {
-  content: "";
-  background-image: url("../TAMS imgs/blue-wheel.svg");
-  position: absolute;
-  width: 100%;
-  height: 500px;
-  left: 0;
-  background-repeat: no-repeat;
-  background-position-y: center;
 }
 .second-session .second-session-text {
   font-weight: 500;
@@ -7637,6 +7642,7 @@ area {
 }
 .second-session-text.second-session-text-tammina {
   border-bottom: 2px solid white;
+  font-weight: 700;
 }
 .second-session-text::before {
   content: "";
@@ -7771,9 +7777,8 @@ area {
 }
 
 .tammina-session {
-  background-image: url("../TAMS imgs/locode-&-why-tech-bg.svg");
+  background-image: url("../TBMS/Vector-background.svg");
   width: 100%;
-  height: 200vh;
   background-size: cover;
   display: grid;
   place-content: center;
@@ -7794,13 +7799,22 @@ area {
   top: -83px;
   animation: rotating 7s linear infinite;
 }
+.tammina-session .tammina-session-align {
+  position: relative;
+  top: 8rem;
+}
 .tammina-session .design-card-support {
   height: 150px;
-  background: linear-gradient(96.21deg, #247378 22.34%, #782470 73.25%);
+  background: linear-gradient(96.21deg, #F0962C 22.34%, #25C0CA 73.25%);
   box-shadow: 0px 4px 33px rgba(0, 0, 0, 0.44);
   border-radius: 33px;
   display: grid;
   text-align: center;
+}
+@media (max-width: 991px) {
+  .tammina-session .design-card-support {
+    height: 230px;
+  }
 }
 .tammina-session .design-card-support .Connect-content {
   display: grid;
@@ -7986,4 +8000,8 @@ area {
     margin: auto;
     text-align: center;
   }
+}
+
+.appian-text {
+  font-weight: 400;
 }/*# sourceMappingURL=style.css.map */
