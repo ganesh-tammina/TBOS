@@ -8381,11 +8381,13 @@ area {
   background-repeat: no-repeat;
   background-position: bottom;
 }
+
 @media (min-width: 992px) {
   .first-section {
     height: 160vh;
   }
 }
+
 .first-section .first-row {
   height: 90vh;
   -webkit-box-align: center;
@@ -8430,6 +8432,7 @@ area {
     font-size: 38px;
   }
 }
+
 .first-section .first-section-content .first-section-image {
   background-image: url("../TBMS/Mockup-Home.svg");
   width: 68%;
@@ -8440,6 +8443,7 @@ area {
   right: 7em;
   background-size: contain;
 }
+
 .first-section .first-section_content {
   font-size: 39px;
   text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
@@ -8681,6 +8685,7 @@ area {
   background-position: bottom;
   background-size: contain;
 }
+
 .second-session .second-session-text {
   font-weight: 800;
   font-size: 20px;
@@ -9341,15 +9346,14 @@ area {
   line-height: 45px;
   text-transform: uppercase;
   color: #243C78;
-  border-bottom: 2px solid 
- #243C78;
+  border-bottom: 2px solid  #243C78;
   display: inline-block;
   position: relative;
   padding-bottom: 5px;
 }
 
 .second-session-text.second-session-text-tammina {
-  border-bottom: 2px solid white;
+  border-bottom: 2px solid #ffff;
   font-weight: 700;
 }
 
@@ -9561,24 +9565,29 @@ area {
   -webkit-animation: rotating 7s linear infinite;
           animation: rotating 7s linear infinite;
 }
+
 .tammina-session .tammina-session-align {
   position: relative;
   top: 8rem;
 }
+
 .tammina-session .design-card-support {
   height: 150px;
   background: linear-gradient(96.21deg, #F0962C 22.34%, #25C0CA 73.25%);
-  box-shadow: 0px 4px 33px rgba(0, 0, 0, 0.44);
+  -webkit-box-shadow: 0px 4px 33px rgba(0, 0, 0, 0.44);
+          box-shadow: 0px 4px 33px rgba(0, 0, 0, 0.44);
   border-radius: 33px;
   display: -ms-grid;
   display: grid;
   text-align: center;
 }
+
 @media (max-width: 991px) {
   .tammina-session .design-card-support {
     height: 230px;
   }
 }
+
 .tammina-session .design-card-support .Connect-content {
   display: -ms-grid;
   display: grid;
@@ -9744,41 +9753,67 @@ area {
   content: '';
 }
 
-.aligns {
+.serviceline {
   z-index: 1;
   position: relative;
+  background-image: url("../img/Star 9.svg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  padding: 10px;
+  margin-bottom: 80px;
 }
 
-.aligns::before {
+.serviceline::before {
   content: "";
   position: absolute;
   width: 100px;
   height: 100px;
   background-color: #ffff;
   border-radius: 50px;
-  left: -32px;
+  left: 0;
   right: 0;
   margin: auto;
-  top: -33px;
+  top: -59px;
   background-image: url(../img/Vector.svg);
-  background-size: 57px 125px;
+  background-size: 55px 125px;
   background-repeat: no-repeat;
   background-position: center;
-  border: 2px solid red;
+  border: 2px solid #2DB83B;
+  z-index: 9;
 }
 
-.abcd img {
-  position: absolute;
-  width: 521.75px;
-  left: -60px;
-  top: 1600px;
+@media (max-width: 768px) {
+  .serviceline::before {
+    width: 70px;
+    height: 70px;
+    background-size: 35px;
+    top: -50px;
+  }
 }
 
-.abcde img {
+.serviceimg {
   position: absolute;
-  width: 495.48px;
-  right: 0;
-  top: 1604px;
+  width: 30%;
+  left: -8px;
+}
+
+@media (max-width: 767px) {
+  .serviceimg {
+    display: none;
+  }
+}
+
+.serviceimg2 {
+  position: absolute;
+  width: 30%;
+  right: -7px;
+}
+
+@media (max-width: 767px) {
+  .serviceimg2 {
+    display: none;
+  }
 }
 
 .key-text {
@@ -9795,4 +9830,41 @@ area {
 
 .appian-text {
   font-weight: 400;
-}/*# sourceMappingURL=style.css.map */
+}
+
+.sample-text {
+  position: absolute;
+  color: white;
+  font-style: normal;
+  font-weight: 600;
+  z-index: 99;
+  text-align: center;
+  font-size: 10px;
+  height: 100%;
+  display: -ms-grid;
+  display: grid;
+  place-content: center;
+  width: 50%;
+  margin: auto;
+  left: 0;
+  right: 0;
+}
+
+@media (max-width: 575px) {
+  .sample-text {
+    font-size: 14px;
+  }
+}
+
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+  .sample-text {
+    font-size: 7px;
+  }
+}
+
+@media (min-width: 992px) {
+  .sample-text {
+    font-size: 13px;
+  }
+}
+/*# sourceMappingURL=style.css.map */

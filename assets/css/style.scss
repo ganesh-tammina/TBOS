@@ -8360,39 +8360,59 @@ font-weight: bold;
     }
 }
 
-
-.aligns{
+.serviceline {
     z-index: 1;
     position: relative;
-&::before {
-    content: "";
-    position: absolute;
-    width: 100px;
-    height: 100px;
-    background-color: #ffff;
-    border-radius: 50px;
-    left: -32px;
-    right: 0;
-    margin: auto;
-    top: -33px;
-    background-image: url(../img/Vector.svg);
-    background-size: 57px 125px;
+    background-image: url("../img/Star 9.svg");
     background-repeat: no-repeat;
+    background-size: contain;
     background-position: center;
-    border: 2px solid red;
+    padding: 10px;
+    margin-bottom: 80px;
+
+    &::before {
+        content: "";
+        position: absolute;
+        width: 100px;
+        height: 100px;
+        background-color: #ffff;
+        border-radius: 50px;
+        left: 0;
+        right: 0;
+        margin: auto;
+        top: -59px;
+        background-image: url(../img/Vector.svg);
+        background-size: 55px 125px;
+        background-repeat: no-repeat;
+        background-position: center;
+        border: 2px solid #2DB83B;
+        z-index: 9;
+        // filter: drop-shadow(2px 15px 6px #ffff);
+        @media (max-width: 768px){
+            width: 70px;
+            height: 70px;
+            background-size: 35px;
+            top: -50px;
+        }
+    }
 }
-}
-.abcd img {
+
+.serviceimg{
     position: absolute;
-    width: 521.75px;
-    left: -60px;
-    top: 1600px;
+    width: 30%;
+    left: -8px;
+    @media (max-width: 767px){
+        display: none;
+    }
 }
-.abcde img{
+.serviceimg2{
     position: absolute;
-    width: 495.48px;
-    right: 0;
-    top: 1604px;
+    width: 30%;
+    right: -7px;
+    @media (max-width: 767px){
+        display: none;
+    }
+    
 }
 
 .key-text{
@@ -8411,3 +8431,30 @@ font-weight: bold;
 .appian-text{
     font-weight: 400;
 }
+.sample-text {
+    position: absolute;
+    color: white;
+    font-style: normal;
+    font-weight: 600;
+    z-index: 99;
+    text-align: center;
+    font-size: 10px;
+    height: 100%;
+    display: grid;
+    place-content: center;
+    width: 50%;
+    margin: auto;
+    left: 0;
+    right: 0;
+    @media (max-width: 575px){
+        font-size: 14px;
+    }
+    @media only screen and (min-width:576px) and (max-width:767px){
+        font-size: 7px;
+    }
+    @media (min-width: 992px){
+        font-size: 13px;
+    }
+}
+
+    
