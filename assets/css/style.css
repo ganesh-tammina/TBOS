@@ -68,7 +68,6 @@ p {
 
 a {
   display: inline-block;
-  -webkit-transition: all 0.5s;
   transition: all 0.5s;
   text-decoration: none;
 }
@@ -162,7 +161,6 @@ Default Btn Style
   overflow: hidden;
   z-index: 1;
   text-transform: capitalize;
-  background-image: -webkit-gradient(linear, left top, right top, from(#ff2500), to(#ff7100));
   background-image: linear-gradient(to right, #ff2500, #ff7100);
   border-radius: 50px;
   border: none;
@@ -181,7 +179,6 @@ Default Btn Style
   position: absolute;
   top: 5.5px;
   right: 10px;
-  -webkit-transition: 0.7s;
   transition: 0.7s;
 }
 .default-btn::before {
@@ -190,13 +187,11 @@ Default Btn Style
   top: 0;
   width: 0;
   height: 100%;
-  background-image: -webkit-gradient(linear, left top, right top, from(#0049b1), to(#1e71e6));
   background-image: linear-gradient(to right, #0049b1, #1e71e6);
   left: 0;
   right: 0;
   opacity: 0;
   z-index: -1;
-  -webkit-transition: 0.7s;
   transition: 0.7s;
 }
 .default-btn:hover::before {
@@ -219,7 +214,6 @@ Default Btn Style
   overflow: hidden;
   z-index: 1;
   text-transform: capitalize;
-  background-image: -webkit-gradient(linear, left top, right top, from(#ff2500), to(#ff7100));
   background-image: linear-gradient(to right, #ff2500, #ff7100);
   border-radius: 10px;
 }
@@ -233,13 +227,11 @@ Default Btn Style
   top: 0;
   width: 0;
   height: 100%;
-  background-image: -webkit-gradient(linear, left top, right top, from(#0049b1), to(#1e71e6));
   background-image: linear-gradient(to right, #0049b1, #1e71e6);
   left: 0;
   right: 0;
   opacity: 0;
   z-index: -1;
-  -webkit-transition: 0.7s;
   transition: 0.7s;
 }
 .default-btn-two:hover::before {
@@ -331,7 +323,6 @@ Navbar Area
 ====================================*/
 .navbar-area {
   background-color: transparent;
-  -webkit-transition: 0.3s;
   transition: 0.3s;
   position: relative;
   padding-top: 0;
@@ -399,8 +390,7 @@ Navbar Area
   color: #ff3900 !important;
 }
 .main-nav nav .navbar-nav .nav-item a .active::before {
-  -webkit-transform: scale(1);
-          transform: scale(1);
+  transform: scale(1);
 }
 .main-nav nav .navbar-nav .nav-item .dropdown-menu {
   border: none;
@@ -419,7 +409,6 @@ Navbar Area
   text-transform: capitalize;
   color: #1a1b1e !important;
   position: relative;
-  -webkit-transition: 0.7s;
   transition: 0.7s;
   font-weight: 600;
   padding: 10px;
@@ -492,7 +481,6 @@ Navbar Area
   height: 35px;
   background-color: #ffffff;
   text-align: center;
-  -webkit-transition: 0.7s;
   transition: 0.7s;
 }
 .main-nav nav .side-nav .side-item .user-btn:hover i {
@@ -507,14 +495,11 @@ Navbar Area
   overflow: hidden;
   z-index: 1;
   text-transform: capitalize;
-  background-image: -webkit-gradient(linear, left top, right top, from(#ff2500), to(#ff7100));
   background-image: linear-gradient(to right, #ff2500, #ff7100);
   border-radius: 50px;
-  -webkit-transition: 0.7s;
   transition: 0.7s;
 }
 .main-nav nav .side-nav .side-item .nav-menu-btn:hover {
-  background-image: -webkit-gradient(linear, left top, right top, from(#4400ff), to(#0077ff));
   background-image: linear-gradient(to right, #4400ff, #0077ff);
 }
 .main-nav nav .side-nav .side-item .search-box-2 {
@@ -530,13 +515,11 @@ Navbar Area
   border-radius: 5px;
 }
 .main-nav nav .side-nav .side-item .search-box-2 .form-control:focus {
-  -webkit-box-shadow: none !important;
-          box-shadow: none !important;
+  box-shadow: none !important;
   border: 1px solid #6c6c6c;
 }
 .main-nav nav .side-nav .side-item .search-box-2 .search-btn {
-  -webkit-box-shadow: none;
-          box-shadow: none;
+  box-shadow: none;
   border: none;
   outline: none;
   position: absolute;
@@ -549,7 +532,6 @@ Navbar Area
   border-radius: 10px;
   color: #ffffff;
   text-align: center;
-  -webkit-transition: 0.7s;
   transition: 0.7s;
   font-size: 20px;
 }
@@ -593,7 +575,6 @@ Navbar Area
   width: 0;
   background-color: #ff0017;
   opacity: 0;
-  -webkit-transition: 0.7s;
   transition: 0.7s;
 }
 .nav-bar-two nav .navbar-nav .nav-item .dropdown-menu li {
@@ -633,7 +614,6 @@ Navbar Area
   width: 0;
   background-color: #ff3900;
   opacity: 0;
-  -webkit-transition: 0.7s;
   transition: 0.7s;
 }
 .nav-bar-three nav .navbar-nav .nav-item .dropdown-menu li {
@@ -655,7 +635,6 @@ Navbar Area
 .sticky-nav {
   top: 0;
   position: fixed;
-  -webkit-transition: 0.9s;
   transition: 0.9s;
   width: 100% !important;
   z-index: 999;
@@ -664,8 +643,7 @@ Navbar Area
   top: 0;
   background-color: #ffffff;
   position: fixed;
-  -webkit-box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
-          box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
 }
 .sticky-nav .main-nav .search-box i {
   background-color: #ff3900 !important;
@@ -687,8 +665,7 @@ Navbar Area
   top: 0;
   background-color: #2966be;
   position: fixed;
-  -webkit-box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
-          box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
   height: 70px;
   display: grid;
   place-items: center;
@@ -710,12 +687,8 @@ Navbar Area
   top: 12px;
 }
 .side-nav-responsive .dot-menu .circle-inner {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  align-items: center;
   height: 30px;
 }
 .side-nav-responsive .dot-menu .circle-inner .circle {
@@ -723,7 +696,6 @@ Navbar Area
   width: 5px;
   border-radius: 100%;
   margin: 0 2px;
-  -webkit-transition: 0.7s;
   transition: 0.7s;
   background-color: #2966be;
 }
@@ -732,8 +704,6 @@ Navbar Area
 }
 .side-nav-responsive .container {
   position: relative;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
 }
 .side-nav-responsive .container .container {
@@ -744,10 +714,8 @@ Navbar Area
   margin-left: auto;
   opacity: 0;
   visibility: hidden;
-  -webkit-transition: 0.7s;
   transition: 0.7s;
-  -webkit-transform: scaleX(0);
-          transform: scaleX(0);
+  transform: scaleX(0);
   z-index: 2;
   padding-left: 15px;
   padding-right: 15px;
@@ -755,13 +723,11 @@ Navbar Area
 .side-nav-responsive .container .container.active {
   opacity: 1;
   visibility: visible;
-  -webkit-transform: scaleX(1);
-          transform: scaleX(1);
+  transform: scaleX(1);
 }
 .side-nav-responsive .side-nav-inner {
   padding: 10px;
-  -webkit-box-shadow: 0 15px 40px rgba(0, 0, 0, 0.09);
-          box-shadow: 0 15px 40px rgba(0, 0, 0, 0.09);
+  box-shadow: 0 15px 40px rgba(0, 0, 0, 0.09);
   background-color: #ffffff;
 }
 .side-nav-responsive .side-nav-inner .side-nav {
@@ -812,7 +778,6 @@ Navbar Area
   height: 35px;
   background-color: #ffffff;
   text-align: center;
-  -webkit-transition: 0.7s;
   transition: 0.7s;
 }
 .side-nav-responsive .side-nav-inner .side-nav .user-btn:hover i {
@@ -828,14 +793,11 @@ Navbar Area
   overflow: hidden;
   z-index: 1;
   text-transform: capitalize;
-  background-image: -webkit-gradient(linear, left top, right top, from(#4400ff), to(#0077ff));
   background-image: linear-gradient(to right, #4400ff, #0077ff);
   border-radius: 50px;
-  -webkit-transition: 0.7s;
   transition: 0.7s;
 }
 .side-nav-responsive .side-nav-inner .side-nav .nav-menu-btn:hover {
-  background-image: -webkit-gradient(linear, left top, right top, from(#ff2500), to(#ff7100));
   background-image: linear-gradient(to right, #ff2500, #ff7100);
 }
 .side-nav-responsive .side-nav-inner .side-nav .search-box-2 {
@@ -849,13 +811,11 @@ Navbar Area
   border-radius: 5px;
 }
 .side-nav-responsive .side-nav-inner .side-nav .search-box-2 .form-control:focus {
-  -webkit-box-shadow: none !important;
-          box-shadow: none !important;
+  box-shadow: none !important;
   border: 1px solid #6c6c6c;
 }
 .side-nav-responsive .side-nav-inner .side-nav .search-box-2 .search-btn {
-  -webkit-box-shadow: none;
-          box-shadow: none;
+  box-shadow: none;
   border: none;
   outline: none;
   position: absolute;
@@ -868,7 +828,6 @@ Navbar Area
   border-radius: 10px;
   color: #ffffff;
   text-align: center;
-  -webkit-transition: 0.7s;
   transition: 0.7s;
   font-size: 20px;
 }
@@ -894,7 +853,6 @@ Search Overlay CSS
   z-index: 99999;
   opacity: 0;
   visibility: hidden;
-  -webkit-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
   overflow: hidden;
 }
@@ -904,25 +862,21 @@ Search Overlay CSS
   right: 0;
   bottom: 0;
   z-index: 1;
-  -webkit-transform: translateX(100%);
-          transform: translateX(100%);
+  transform: translateX(100%);
 }
 .search-overlay .search-layer:nth-child(1) {
   left: 0;
   background-color: rgba(0, 0, 0, 0.5);
-  -webkit-transition: all 0.3s ease-in-out 0s;
   transition: all 0.3s ease-in-out 0s;
 }
 .search-overlay .search-layer:nth-child(2) {
   left: 0;
   background-color: rgba(0, 0, 0, 0.5);
-  -webkit-transition: all 0.3s ease-in-out 0.3s;
   transition: all 0.3s ease-in-out 0.3s;
 }
 .search-overlay .search-layer:nth-child(3) {
   left: 0;
   background-color: rgba(0, 0, 0, 0.5);
-  -webkit-transition: all 0.9s ease-in-out 0.6s;
   transition: all 0.9s ease-in-out 0.6s;
 }
 .search-overlay .search-close {
@@ -934,7 +888,6 @@ Search Overlay CSS
   text-align: center;
   cursor: pointer;
   padding: 10px;
-  -webkit-transition: all 0.9s ease-in-out 1.5s;
   transition: all 0.9s ease-in-out 1.5s;
   opacity: 0;
   visibility: hidden;
@@ -945,33 +898,27 @@ Search Overlay CSS
   float: left;
   margin-bottom: 5px;
   background-color: #ffffff;
-  -webkit-transition: all 500ms ease;
   transition: all 500ms ease;
 }
 .search-overlay .search-close .search-close-line:nth-child(1) {
-  -webkit-transform: rotate(45deg);
-          transform: rotate(45deg);
+  transform: rotate(45deg);
 }
 .search-overlay .search-close .search-close-line:nth-child(2) {
   margin-top: -7px;
-  -webkit-transform: rotate(-45deg);
-          transform: rotate(-45deg);
+  transform: rotate(-45deg);
 }
 .search-overlay .search-close:hover .search-close-line {
   background: #ff3900;
-  -webkit-transform: rotate(180deg);
-          transform: rotate(180deg);
+  transform: rotate(180deg);
 }
 .search-overlay .search-form {
-  -webkit-transition: all 0.9s ease-in-out 1.4s;
   transition: all 0.9s ease-in-out 1.4s;
   opacity: 0;
   visibility: hidden;
   position: absolute;
   left: 50%;
   top: 50%;
-  -webkit-transform: translateY(-50%) translateX(-50%);
-          transform: translateY(-50%) translateX(-50%);
+  transform: translateY(-50%) translateX(-50%);
   z-index: 2;
   max-width: 500px;
   width: 500px;
@@ -989,24 +936,6 @@ Search Overlay CSS
   color: #1a1b1e;
   padding: 3px 0 0 25px;
 }
-.search-overlay .search-form form .input-search::-webkit-input-placeholder {
-  -webkit-transition: 0.7s;
-  transition: 0.7s;
-  letter-spacing: 0.5px;
-  color: #1a1b1e;
-}
-.search-overlay .search-form form .input-search:-ms-input-placeholder {
-  -ms-transition: 0.7s;
-  transition: 0.7s;
-  letter-spacing: 0.5px;
-  color: #1a1b1e;
-}
-.search-overlay .search-form form .input-search::-ms-input-placeholder {
-  -ms-transition: 0.7s;
-  transition: 0.7s;
-  letter-spacing: 0.5px;
-  color: #1a1b1e;
-}
 .search-overlay .search-form form .input-search::-moz-placeholder {
   -moz-transition: 0.7s;
   transition: 0.7s;
@@ -1014,7 +943,6 @@ Search Overlay CSS
   color: #1a1b1e;
 }
 .search-overlay .search-form form .input-search::placeholder {
-  -webkit-transition: 0.7s;
   transition: 0.7s;
   letter-spacing: 0.5px;
   color: #1a1b1e;
@@ -1022,15 +950,6 @@ Search Overlay CSS
 .search-overlay .search-form form .input-search:focus {
   border: none;
   outline: none;
-}
-.search-overlay .search-form form .input-search:focus::-webkit-input-placeholder {
-  color: transparent;
-}
-.search-overlay .search-form form .input-search:focus:-ms-input-placeholder {
-  color: transparent;
-}
-.search-overlay .search-form form .input-search:focus::-ms-input-placeholder {
-  color: transparent;
 }
 .search-overlay .search-form form .input-search:focus::-moz-placeholder {
   color: transparent;
@@ -1047,7 +966,6 @@ Search Overlay CSS
   height: 50px;
   border-radius: 50%;
   background-color: #ff3900;
-  -webkit-transition: 0.7s;
   transition: 0.7s;
   border: none;
   font-size: 20px;
@@ -1067,7 +985,6 @@ Search Overlay CSS
   visibility: visible;
 }
 .search-overlay.search-overlay-active.search-overlay .search-layer {
-  -webkit-transform: translateX(0);
   transform: translateX(0);
 }
 .search-overlay.search-overlay-active.search-overlay .search-close {
@@ -1128,7 +1045,6 @@ Main Banner Area CSS
   font-size: 26px;
   color: #ffffff;
   display: inline-block;
-  background-image: -webkit-gradient(linear, left top, right top, from(#ff2500), to(#ff7100));
   background-image: linear-gradient(to right, #ff2500, #ff7100);
   border-radius: 50px;
   text-align: center;
@@ -1166,7 +1082,6 @@ Main Banner Area CSS
   overflow: hidden;
   z-index: 1;
   text-transform: capitalize;
-  background-image: -webkit-gradient(linear, left top, right top, from(#ff2500), to(#ff7100));
   background-image: linear-gradient(to right, #ff2500, #ff7100);
   border-radius: 50px;
 }
@@ -1183,7 +1098,6 @@ Main Banner Area CSS
   position: absolute;
   top: 5.5px;
   right: 10px;
-  -webkit-transition: 0.7s;
   transition: 0.7s;
 }
 .banner-content .banner-btn .get-btn::before {
@@ -1192,13 +1106,11 @@ Main Banner Area CSS
   top: 0;
   width: 0;
   height: 100%;
-  background-image: -webkit-gradient(linear, left top, right top, from(#0049b1), to(#1e71e6));
   background-image: linear-gradient(to right, #0049b1, #1e71e6);
   left: 0;
   right: 0;
   opacity: 0;
   z-index: -1;
-  -webkit-transition: 0.7s;
   transition: 0.7s;
 }
 .banner-content .banner-btn .get-btn:hover::before {
@@ -1218,7 +1130,6 @@ Main Banner Area CSS
   overflow: hidden;
   z-index: 1;
   text-transform: capitalize;
-  background-image: -webkit-gradient(linear, left top, right top, from(#0049b1), to(#1e71e6));
   background-image: linear-gradient(to right, #0049b1, #1e71e6);
   border-radius: 50px;
 }
@@ -1235,7 +1146,6 @@ Main Banner Area CSS
   position: absolute;
   top: 5.5px;
   left: 10px;
-  -webkit-transition: 0.7s;
   transition: 0.7s;
 }
 .banner-content .banner-btn .call-btn::before {
@@ -1244,13 +1154,11 @@ Main Banner Area CSS
   top: 0;
   width: 0;
   height: 100%;
-  background-image: -webkit-gradient(linear, left top, right top, from(#ff2500), to(#ff7100));
   background-image: linear-gradient(to right, #ff2500, #ff7100);
   left: 0;
   right: 0;
   opacity: 0;
   z-index: -1;
-  -webkit-transition: 0.7s;
   transition: 0.7s;
 }
 .banner-content .banner-btn .call-btn:hover::before {
@@ -1267,36 +1175,31 @@ Main Banner Area CSS
   position: absolute;
   left: 0;
   top: 15%;
-  -webkit-animation: running-in 16s infinite linear;
-          animation: running-in 16s infinite linear;
+  animation: running-in 16s infinite linear;
 }
 .banner-shape .shape2 {
   position: absolute;
   left: 32%;
   top: 15%;
-  -webkit-animation: pulse 7s infinite;
-          animation: pulse 7s infinite;
+  animation: pulse 7s infinite;
 }
 .banner-shape .shape3 {
   position: absolute;
   left: 25%;
   top: 17%;
-  -webkit-animation: rotated360 6s infinite linear;
-          animation: rotated360 6s infinite linear;
+  animation: rotated360 6s infinite linear;
 }
 .banner-shape .shape4 {
   position: absolute;
   left: 50%;
   top: 40%;
-  -webkit-animation: rotated360 6s infinite linear;
-          animation: rotated360 6s infinite linear;
+  animation: rotated360 6s infinite linear;
 }
 .banner-shape .shape5 {
   position: absolute;
   left: 60%;
   top: 25%;
-  -webkit-animation: animationFramesOne 15s linear infinite;
-          animation: animationFramesOne 15s linear infinite;
+  animation: animationFramesOne 15s linear infinite;
 }
 
 .banner-area-two {
@@ -1369,7 +1272,6 @@ Main Banner Area CSS
   overflow: hidden;
   z-index: 1;
   text-transform: capitalize;
-  background-image: -webkit-gradient(linear, left top, right top, from(#ff2500), to(#ff7100));
   background-image: linear-gradient(to right, #ff2500, #ff7100);
   border-radius: 50px;
 }
@@ -1386,7 +1288,6 @@ Main Banner Area CSS
   position: absolute;
   top: 5.5px;
   right: 10px;
-  -webkit-transition: 0.7s;
   transition: 0.7s;
 }
 .banner-content-two .banner-content-btn .learn-btn::before {
@@ -1395,13 +1296,11 @@ Main Banner Area CSS
   top: 0;
   width: 0;
   height: 100%;
-  background-image: -webkit-gradient(linear, left top, right top, from(#0049b1), to(#1e71e6));
   background-image: linear-gradient(to right, #0049b1, #1e71e6);
   left: 0;
   right: 0;
   opacity: 0;
   z-index: -1;
-  -webkit-transition: 0.7s;
   transition: 0.7s;
 }
 .banner-content-two .banner-content-btn .learn-btn:hover::before {
@@ -1448,8 +1347,7 @@ Main Banner Area CSS
   display: grid;
   place-items: center;
   background-position: top;
-  -webkit-animation: 9s ease 0s infinite normal none running movebounce-up;
-          animation: 9s ease 0s infinite normal none running movebounce-up;
+  animation: 9s ease 0s infinite normal none running movebounce-up;
 }
 .banner-img-2 .inner-img {
   text-align: center;
@@ -1462,65 +1360,27 @@ Main Banner Area CSS
   height: 500px;
 }
 
-@-webkit-keyframes movebounce-down {
-  0% {
-    -webkit-transform: scale(0.5);
-            transform: scale(0.5);
-    opacity: 0;
-  }
-  50% {
-    -webkit-transform: scale(8.5);
-            transform: scale(8.5);
-    opacity: 1;
-    -webkit-animation: movebounce-down 0s;
-            animation: movebounce-down 0s;
-  }
-  100% {
-    -webkit-transform: scale(0.5);
-            transform: scale(0.5);
-    opacity: 0;
-    -webkit-animation: movebounce-down 0s;
-            animation: movebounce-down 0s;
-  }
-}
-
 @keyframes movebounce-down {
   0% {
-    -webkit-transform: scale(0.5);
-            transform: scale(0.5);
+    transform: scale(0.5);
     opacity: 0;
   }
   50% {
-    -webkit-transform: scale(8.5);
-            transform: scale(8.5);
+    transform: scale(8.5);
     opacity: 1;
-    -webkit-animation: movebounce-down 0s;
-            animation: movebounce-down 0s;
+    animation: movebounce-down 0s;
   }
   100% {
-    -webkit-transform: scale(0.5);
-            transform: scale(0.5);
+    transform: scale(0.5);
     opacity: 0;
-    -webkit-animation: movebounce-down 0s;
-            animation: movebounce-down 0s;
-  }
-}
-@-webkit-keyframes movebounce-puse {
-  100% {
-    -webkit-transform: scale(0);
-            transform: scale(0);
-    opacity: 1;
-    -webkit-animation-delay: unset;
-            animation-delay: unset;
+    animation: movebounce-down 0s;
   }
 }
 @keyframes movebounce-puse {
   100% {
-    -webkit-transform: scale(0);
-            transform: scale(0);
+    transform: scale(0);
     opacity: 1;
-    -webkit-animation-delay: unset;
-            animation-delay: unset;
+    animation-delay: unset;
   }
 }
 .banner-bottom-shape {
@@ -1548,15 +1408,13 @@ Main Banner Area CSS
   position: absolute;
   top: 22%;
   left: 35%;
-  -webkit-animation: flash 5s infinite;
-          animation: flash 5s infinite;
+  animation: flash 5s infinite;
 }
 .banner-bottom-shape .banner-dots2 {
   position: absolute;
   bottom: 13%;
   right: 12%;
-  -webkit-animation: flash 5s infinite;
-          animation: flash 5s infinite;
+  animation: flash 5s infinite;
 }
 
 .banner-area-three {
@@ -1603,7 +1461,6 @@ Main Banner Area CSS
   overflow: hidden;
   z-index: 1;
   text-transform: capitalize;
-  background-image: -webkit-gradient(linear, left top, right top, from(#ff2500), to(#ff7100));
   background-image: linear-gradient(to right, #ff2500, #ff7100);
   border-radius: 10px;
 }
@@ -1617,13 +1474,11 @@ Main Banner Area CSS
   top: 0;
   width: 0;
   height: 100%;
-  background-image: -webkit-gradient(linear, left top, right top, from(#0049b1), to(#1e71e6));
   background-image: linear-gradient(to right, #0049b1, #1e71e6);
   left: 0;
   right: 0;
   opacity: 0;
   z-index: -1;
-  -webkit-transition: 0.7s;
   transition: 0.7s;
 }
 .banner-content-three .banner-three-btn .explore-btn:hover::before {
@@ -1782,15 +1637,13 @@ Inner Banner
   position: absolute;
   top: 22%;
   left: 35%;
-  -webkit-animation: flash 5s infinite;
-          animation: flash 5s infinite;
+  animation: flash 5s infinite;
 }
 .inner-banner .inner-banner-shape .inner-banner-dots-2 {
   position: absolute;
   bottom: 32%;
   right: 10%;
-  -webkit-animation: flash 5s infinite;
-          animation: flash 5s infinite;
+  animation: flash 5s infinite;
 }
 
 /*================================
@@ -1887,7 +1740,6 @@ About Area
   right: 0;
   width: 100%;
   height: 100%;
-  background-image: -webkit-gradient(linear, left top, right top, from(#ff2500), to(#ff7100));
   background-image: linear-gradient(to right, #ff2500, #ff7100);
   border-radius: 50% 30% 50% 30%;
 }
@@ -1927,7 +1779,6 @@ About Area
   margin-left: 20px;
   position: relative;
   padding-left: 70px;
-  -webkit-transition: 0.7s;
   transition: 0.7s;
 }
 .about-content .about-btn .play-btn span {
@@ -1938,7 +1789,6 @@ About Area
   color: #ff3900;
 }
 .about-content .about-btn .play-btn:hover i {
-  background-image: -webkit-gradient(linear, left top, right top, from(#ff2500), to(#ff7100));
   background-image: linear-gradient(to right, #ff2500, #ff7100);
 }
 .about-content .about-btn .play-btn i {
@@ -1954,7 +1804,6 @@ About Area
   color: #ffffff;
   text-align: center;
   display: inline-block;
-  -webkit-transition: 0.7s;
   transition: 0.7s;
 }
 
@@ -1971,29 +1820,25 @@ About Area
   position: absolute;
   top: 7%;
   right: 0%;
-  -webkit-animation: animationFramesOne 15s linear infinite;
-          animation: animationFramesOne 15s linear infinite;
+  animation: animationFramesOne 15s linear infinite;
 }
 .about-shape .shape-3 {
   position: absolute;
   top: 30%;
   right: 0%;
-  -webkit-animation: rotated360 6s infinite linear;
-          animation: rotated360 6s infinite linear;
+  animation: rotated360 6s infinite linear;
 }
 .about-shape .shape-4 {
   position: absolute;
   top: 70%;
   right: 0%;
-  -webkit-animation: running-in 16s infinite linear;
-          animation: running-in 16s infinite linear;
+  animation: running-in 16s infinite linear;
 }
 .about-shape .shape-5 {
   position: absolute;
   top: 80%;
   right: 15%;
-  -webkit-animation: flash 5s infinite linear;
-          animation: flash 5s infinite linear;
+  animation: flash 5s infinite linear;
 }
 
 .about-content-two .section-title h2 {
@@ -2022,19 +1867,12 @@ About Area
   background-color: #ffffff;
   border-radius: 5px;
   height: 80px;
-  -webkit-box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.1607843137);
-          box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.1607843137);
+  box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.1607843137);
   position: relative;
   z-index: 1;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  justify-content: center;
+  align-items: center;
 }
 .about-content-two .about-list:hover::before {
   opacity: 1;
@@ -2056,9 +1894,7 @@ About Area
   width: 0;
   height: 100%;
   border-radius: 5px;
-  background-image: -webkit-gradient(linear, left top, right top, from(#ff2500), to(#ff7100));
   background-image: linear-gradient(to right, #ff2500, #ff7100);
-  -webkit-transition: 0.7s;
   transition: 0.7s;
   opacity: 0;
 }
@@ -2097,7 +1933,6 @@ About Area
   overflow: hidden;
   z-index: 1;
   text-transform: capitalize;
-  background-image: -webkit-gradient(linear, left top, right top, from(#ff2500), to(#ff7100));
   background-image: linear-gradient(to right, #ff2500, #ff7100);
   border-radius: 10px;
 }
@@ -2111,13 +1946,11 @@ About Area
   top: 0;
   width: 0;
   height: 100%;
-  background-image: -webkit-gradient(linear, left top, right top, from(#0049b1), to(#1e71e6));
   background-image: linear-gradient(to right, #0049b1, #1e71e6);
   left: 0;
   right: 0;
   opacity: 0;
   z-index: -1;
-  -webkit-transition: 0.7s;
   transition: 0.7s;
 }
 .about-btn-two .about-more-btn:hover::before {
@@ -2151,7 +1984,6 @@ About Area
   right: 0;
   opacity: 0;
   z-index: -1;
-  -webkit-transition: 0.7s;
   transition: 0.7s;
 }
 .about-btn-two .contact-us-btn:hover::before {
@@ -2244,7 +2076,6 @@ About Area
   left: 0;
   border-radius: 50%;
   border: 5px solid #ff9880;
-  -webkit-transition: 0.7s;
   transition: 0.7s;
 }
 .about-widget-content .about-video .video-btn:hover span {
@@ -2290,15 +2121,13 @@ Schedule Area
   position: absolute;
   bottom: 50px;
   left: 3%;
-  -webkit-animation: running-in 16s infinite linear;
-          animation: running-in 16s infinite linear;
+  animation: running-in 16s infinite linear;
 }
 .schedule-content .schedule-content-shape .shape2 {
   position: absolute;
   bottom: 100px;
   right: 5%;
-  -webkit-animation: rotated360 6s infinite linear;
-          animation: rotated360 6s infinite linear;
+  animation: rotated360 6s infinite linear;
 }
 
 .schedule-shape {
@@ -2328,8 +2157,7 @@ Serve Area
   padding: 10px 20px 10px 40px;
   background-color: #ffffff;
   border-radius: 5px;
-  -webkit-box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
-          box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
   position: relative;
   z-index: 1;
 }
@@ -2353,9 +2181,7 @@ Serve Area
   width: 0;
   height: 100%;
   border-radius: 5px;
-  background-image: -webkit-gradient(linear, left top, right top, from(#ff2500), to(#ff7100));
   background-image: linear-gradient(to right, #ff2500, #ff7100);
-  -webkit-transition: 0.7s;
   transition: 0.7s;
   opacity: 0;
 }
@@ -2451,8 +2277,7 @@ Progress Area
   position: relative;
 }
 .progress-card:hover::before {
-  -webkit-animation: rotated360 6s infinite linear;
-          animation: rotated360 6s infinite linear;
+  animation: rotated360 6s infinite linear;
 }
 .progress-card::before {
   content: "";
@@ -2464,7 +2289,6 @@ Progress Area
   width: 100%;
   height: 100%;
   border-radius: 48% 50% 48% 50%;
-  -webkit-transition: 0.7s;
   transition: 0.7s;
 }
 .progress-card img {
@@ -2486,12 +2310,10 @@ Progress Area
   background-color: #2966be;
 }
 .pr-bg-color-1::before {
-  background-image: -webkit-gradient(linear, left top, right top, from(#ff2500), to(#ff7100));
   background-image: linear-gradient(to right, #ff2500, #ff7100);
 }
 
 .pr-bg-color-2 {
-  background-image: -webkit-gradient(linear, left top, right top, from(#ff2500), to(#ff7100));
   background-image: linear-gradient(to right, #ff2500, #ff7100);
 }
 .pr-bg-color-2::before {
@@ -2503,7 +2325,6 @@ Progress Area
   position: relative;
 }
 .pr-bg-color-3::before {
-  background-image: -webkit-gradient(linear, left top, right top, from(#ff2500), to(#ff7100));
   background-image: linear-gradient(to right, #ff2500, #ff7100);
 }
 
@@ -2517,8 +2338,7 @@ Progress Area
 .service-card {
   text-align: center;
   background-color: #ffffff;
-  -webkit-box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
-          box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
   padding: 35px 30px;
   position: relative;
   z-index: 1;
@@ -2573,15 +2393,13 @@ Progress Area
   position: absolute;
   top: 30%;
   left: 20%;
-  -webkit-animation: flash 5s infinite linear;
-          animation: flash 5s infinite linear;
+  animation: flash 5s infinite linear;
 }
 .service-shape .shape2 {
   position: absolute;
   top: 30%;
   right: 3%;
-  -webkit-animation: rotated360 6s infinite linear;
-          animation: rotated360 6s infinite linear;
+  animation: rotated360 6s infinite linear;
 }
 
 .service-area-two {
@@ -2596,8 +2414,7 @@ Progress Area
 
 .service-item {
   background-color: #ffffff;
-  -webkit-box-shadow: 0 0 15px rgba(0, 0, 0, 0.05);
-          box-shadow: 0 0 15px rgba(0, 0, 0, 0.05);
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.05);
   padding: 50px 30px;
   text-align: center;
   position: relative;
@@ -2639,8 +2456,7 @@ Progress Area
   right: 0;
   border: 1px dashed #1a1b1e;
   border-radius: 50px;
-  -webkit-animation: rotated360 9s infinite linear;
-          animation: rotated360 9s infinite linear;
+  animation: rotated360 9s infinite linear;
 }
 .service-item .service-item-img .img-circle::after {
   content: "";
@@ -2658,12 +2474,10 @@ Progress Area
   top: 25px;
   position: relative;
   z-index: 1;
-  -webkit-animation: none;
-          animation: none;
+  animation: none;
 }
 .service-item .service-item-img a img {
-  -webkit-animation: none;
-          animation: none;
+  animation: none;
   max-width: 100%;
   height: 40px;
 }
@@ -2685,7 +2499,6 @@ Progress Area
   border: 1px dashed #ff3900;
   border-radius: 50px;
   text-align: center;
-  -webkit-transition: 0.7s;
   transition: 0.7s;
 }
 .service-item .learn-btn:hover {
@@ -2694,8 +2507,7 @@ Progress Area
 .service-item .learn-btn:hover i {
   color: #2966be;
   border-color: #2966be;
-  -webkit-animation: rotated360 9s infinite linear;
-          animation: rotated360 9s infinite linear;
+  animation: rotated360 9s infinite linear;
 }
 
 .inner-header {
@@ -2709,8 +2521,7 @@ Progress Area
   color: #2966be;
   font-weight: bold;
   padding: 10px 0px;
-  -webkit-box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
-          box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
   font-size: 21px;
   font-weight: 600;
 }
@@ -2719,36 +2530,31 @@ Progress Area
   position: absolute;
   top: 0;
   left: 20%;
-  -webkit-animation: flash 3s infinite linear;
-          animation: flash 3s infinite linear;
+  animation: flash 3s infinite linear;
 }
 .service-two-shape .shape-in2 {
   position: absolute;
   top: 30%;
   left: 5%;
-  -webkit-animation: animationFramesOne 15s linear infinite;
-          animation: animationFramesOne 15s linear infinite;
+  animation: animationFramesOne 15s linear infinite;
 }
 .service-two-shape .shape-in3 {
   position: absolute;
   top: 40%;
   left: 2%;
-  -webkit-animation: rotated360 6s infinite linear;
-          animation: rotated360 6s infinite linear;
+  animation: rotated360 6s infinite linear;
 }
 .service-two-shape .shape-in4 {
   position: absolute;
   top: 45%;
   right: 5%;
-  -webkit-animation: running-in 16s infinite linear;
-          animation: running-in 16s infinite linear;
+  animation: running-in 16s infinite linear;
 }
 .service-two-shape .shape-in5 {
   position: absolute;
   top: 60%;
   right: 2%;
-  -webkit-animation: flash 3s infinite linear;
-          animation: flash 3s infinite linear;
+  animation: flash 3s infinite linear;
 }
 
 .service-another {
@@ -2796,8 +2602,7 @@ Progress Area
   margin-bottom: 30px;
   text-align: center;
   padding: 30px 30px;
-  -webkit-box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
-          box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
   position: relative;
   z-index: 1;
   border-radius: 5px;
@@ -2831,10 +2636,8 @@ Progress Area
   background-repeat: no-repeat;
   background-size: 50% 50%, 50% 50%;
   background-position: 0 0, 100% 0, 100% 100%, 0 100%;
-  background-image: -webkit-gradient(linear, left top, left bottom, from(#399953), to(#399953)), -webkit-gradient(linear, left top, left bottom, from(#fbb300), to(#fbb300)), -webkit-gradient(linear, left top, left bottom, from(#d53e33), to(#d53e33)), -webkit-gradient(linear, left top, left bottom, from(#377af5), to(#377af5));
   background-image: linear-gradient(#399953, #399953), linear-gradient(#fbb300, #fbb300), linear-gradient(#d53e33, #d53e33), linear-gradient(#377af5, #377af5);
-  -webkit-animation: rotate 4s linear infinite;
-          animation: rotate 4s linear infinite;
+  animation: rotate 4s linear infinite;
 }
 .service-another-card::after {
   content: "";
@@ -2852,60 +2655,46 @@ Progress Area
   text-align: justify;
 }
 
-@-webkit-keyframes rotate {
-  100% {
-    -webkit-transform: rotate(1turn);
-            transform: rotate(1turn);
-  }
-}
-
 @keyframes rotate {
   100% {
-    -webkit-transform: rotate(1turn);
-            transform: rotate(1turn);
+    transform: rotate(1turn);
   }
 }
 .service-another-shape .shape-1 {
   position: absolute;
   top: 10%;
   left: 0%;
-  -webkit-animation: animationFramesOne 15s linear infinite;
-          animation: animationFramesOne 15s linear infinite;
+  animation: animationFramesOne 15s linear infinite;
 }
 .service-another-shape .shape-2 {
   position: absolute;
   top: 50%;
   left: 0%;
-  -webkit-animation: rotated360 6s infinite linear;
-          animation: rotated360 6s infinite linear;
+  animation: rotated360 6s infinite linear;
 }
 .service-another-shape .shape-3 {
   position: absolute;
   top: 80%;
   left: 0%;
-  -webkit-animation: running-in 16s infinite linear;
-          animation: running-in 16s infinite linear;
+  animation: running-in 16s infinite linear;
 }
 .service-another-shape .shape-4 {
   position: absolute;
   top: 13%;
   right: 0%;
-  -webkit-animation: running-in 10s infinite linear;
-          animation: running-in 10s infinite linear;
+  animation: running-in 10s infinite linear;
 }
 .service-another-shape .shape-5 {
   position: absolute;
   top: 35%;
   right: 3%;
-  -webkit-animation: running-in 16s infinite linear;
-          animation: running-in 16s infinite linear;
+  animation: running-in 16s infinite linear;
 }
 .service-another-shape .shape-6 {
   position: absolute;
   top: 55%;
   right: 0%;
-  -webkit-animation: rotated360 6s infinite linear;
-          animation: rotated360 6s infinite linear;
+  animation: rotated360 6s infinite linear;
 }
 
 .service-icon-bg {
@@ -2936,8 +2725,7 @@ Progress Area
   margin-bottom: 30px;
   background-color: #ffffff;
   padding: 30px;
-  -webkit-box-shadow: 0 0 15px rgba(0, 0, 0, 0.05);
-          box-shadow: 0 0 15px rgba(0, 0, 0, 0.05);
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.05);
 }
 .service-list-content:hover h3 {
   color: #ff3900;
@@ -2946,7 +2734,6 @@ Progress Area
   font-size: 22px;
   color: #2a284f;
   margin-bottom: 10px;
-  -webkit-transition: 0.7s;
   transition: 0.7s;
 }
 .service-list-content p {
@@ -3010,14 +2797,11 @@ Service Details Area
   margin-bottom: 30px;
   padding: 30px;
   background-color: #ffffff;
-  -webkit-box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
-          box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
-  -webkit-transition: 0.7s;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
   transition: 0.7s;
 }
 .service-content-card:hover {
-  -webkit-transform: translateY(-5px);
-          transform: translateY(-5px);
+  transform: translateY(-5px);
 }
 .service-content-card:hover h3 {
   color: #ff3900;
@@ -3025,7 +2809,6 @@ Service Details Area
 .service-content-card h3 {
   margin-bottom: 10px;
   color: #2a284f;
-  -webkit-transition: 0.7s;
   transition: 0.7s;
 }
 .service-content-card p {
@@ -3139,12 +2922,10 @@ Service Details Area
   text-align: center;
   line-height: 65px;
   font-weight: 600;
-  -webkit-box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
-          box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
   margin-top: 20px;
   margin-bottom: 20px;
   border: 5px solid #fbfbfb;
-  -webkit-transition: 0.7s;
   transition: 0.7s;
   display: inline-block;
 }
@@ -3161,8 +2942,7 @@ Service Details Area
   margin-bottom: 35px;
   border: 1px dashed #ff3900;
   background-color: #ffffff;
-  -webkit-box-shadow: 0 0 15px rgba(102, 102, 102, 0.1);
-          box-shadow: 0 0 15px rgba(102, 102, 102, 0.1);
+  box-shadow: 0 0 15px rgba(102, 102, 102, 0.1);
 }
 .widget-category h3 {
   font-size: 20px;
@@ -3198,8 +2978,7 @@ Service Details Area
   margin-bottom: 35px;
   border: 1px dashed #ff3900;
   background-color: #ffffff;
-  -webkit-box-shadow: 0 0 15px rgba(102, 102, 102, 0.1);
-          box-shadow: 0 0 15px rgba(102, 102, 102, 0.1);
+  box-shadow: 0 0 15px rgba(102, 102, 102, 0.1);
 }
 .service-widget-two h2 {
   font-size: 20px;
@@ -3291,14 +3070,11 @@ Case Studies Area
   text-align: center;
   background-color: #ffffff;
   margin-bottom: 30px;
-  -webkit-box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
-          box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
-  -webkit-transition: 0.7s;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
   transition: 0.7s;
 }
 .case-study-card:hover {
-  -webkit-transform: translateY(-5px);
-          transform: translateY(-5px);
+  transform: translateY(-5px);
 }
 .case-study-card:hover .content h3 a {
   color: #ff3900;
@@ -3320,7 +3096,6 @@ Case Studies Area
 .case-study-card .content h3 a {
   display: block;
   color: #2a284f;
-  -webkit-transition: 0.7s;
   transition: 0.7s;
 }
 .case-study-card .content span {
@@ -3386,11 +3161,9 @@ History Area
   border-radius: 50px;
   text-align: center;
   line-height: 65px;
-  -webkit-box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
-          box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
   margin-bottom: 20px;
   border: 5px solid #fbfbfb;
-  -webkit-transition: 0.7s;
   transition: 0.7s;
 }
 .history-list ul li .content {
@@ -3441,16 +3214,13 @@ Courses Area
 .courses-card {
   margin-bottom: 30px;
   background-color: #ffffff;
-  -webkit-box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
-          box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
   padding: 30px 100px 30px 30px;
   position: relative;
-  -webkit-transition: 0.7s;
   transition: 0.7s;
 }
 .courses-card:hover {
-  -webkit-transform: translateY(-10px);
-          transform: translateY(-10px);
+  transform: translateY(-10px);
 }
 .courses-card:hover h3 a {
   color: #ff3900;
@@ -3530,7 +3300,6 @@ Courses Area
   line-height: 60px;
   color: #ffffff;
   font-weight: 600;
-  background-image: -webkit-gradient(linear, left top, left bottom, from(#ff2500), to(#ff7100));
   background-image: linear-gradient(to bottom, #ff2500, #ff7100);
 }
 
@@ -3727,7 +3496,6 @@ Courses Area End
   font-size: 16px;
   text-align: center;
   border-radius: 50px;
-  -webkit-transition: 0.7s;
   transition: 0.7s;
   color: #ff3900;
 }
@@ -3837,8 +3605,7 @@ Courses Area End
 }
 
 .account-wrap {
-  -webkit-box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
-          box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
   border: 1px solid #eaedff;
 }
 .account-wrap ul {
@@ -3915,9 +3682,7 @@ Courses Area End
   left: 0;
   right: 0;
   text-align: center;
-  -webkit-transform: scaleX(0);
-          transform: scaleX(0);
-  -webkit-transition: 0.7s;
+  transform: scaleX(0);
   transition: 0.7s;
 }
 .account-wrap .social-content ul li {
@@ -3936,7 +3701,6 @@ Courses Area End
   text-align: center;
   border-radius: 50px;
   font-size: 18px;
-  -webkit-transition: 0.7s;
   transition: 0.7s;
 }
 .account-wrap .social-content ul li a:hover i {
@@ -3944,8 +3708,7 @@ Courses Area End
   color: #ffffff;
 }
 .account-wrap .social-content:hover ul {
-  -webkit-transform: scaleX(1);
-          transform: scaleX(1);
+  transform: scaleX(1);
 }
 
 .teachers-area-style .section-title {
@@ -3982,7 +3745,6 @@ Work Area
   color: #ff3900;
 }
 .work-card.active h2::before {
-  background-image: -webkit-gradient(linear, left top, right top, from(#ff2500), to(#ff7100)) !important;
   background-image: linear-gradient(to right, #ff2500, #ff7100) !important;
 }
 .work-card h2 {
@@ -4009,8 +3771,7 @@ Work Area
   height: 100%;
   background-color: #2966be;
   border-radius: 70% 30% 70% 30%;
-  -webkit-transform: rotate(20deg);
-          transform: rotate(20deg);
+  transform: rotate(20deg);
 }
 .work-card h3 {
   font-size: 20px;
@@ -4161,8 +3922,7 @@ Mission Area
   padding: 10px 10px 10px 35px;
   background-color: #ffffff;
   border-radius: 5px;
-  -webkit-box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
-          box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
   position: relative;
   z-index: 1;
 }
@@ -4186,9 +3946,7 @@ Mission Area
   width: 0;
   height: 100%;
   border-radius: 5px;
-  background-image: -webkit-gradient(linear, left top, right top, from(#ff2500), to(#ff7100));
   background-image: linear-gradient(to right, #ff2500, #ff7100);
-  -webkit-transition: 0.7s;
   transition: 0.7s;
   opacity: 0;
 }
@@ -4228,29 +3986,25 @@ Mission Area
   position: absolute;
   top: 10%;
   left: 0%;
-  -webkit-animation: animationFramesOne 15s linear infinite;
-          animation: animationFramesOne 15s linear infinite;
+  animation: animationFramesOne 15s linear infinite;
 }
 .mission-shape .shape2 {
   position: absolute;
   top: 64%;
   left: 0%;
-  -webkit-animation: rotated360 6s infinite linear;
-          animation: rotated360 6s infinite linear;
+  animation: rotated360 6s infinite linear;
 }
 .mission-shape .shape3 {
   position: absolute;
   top: 10%;
   right: 0%;
-  -webkit-animation: rotated360 15s linear infinite;
-          animation: rotated360 15s linear infinite;
+  animation: rotated360 15s linear infinite;
 }
 .mission-shape .shape4 {
   position: absolute;
   top: 15%;
   right: 0%;
-  -webkit-animation: running-in 15s linear infinite;
-          animation: running-in 15s linear infinite;
+  animation: running-in 15s linear infinite;
 }
 
 /*==================================
@@ -4269,8 +4023,7 @@ Pricing Area
 .price-width {
   max-width: 1320px;
   background-color: #ffffff;
-  -webkit-box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
-          box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
   padding: 60px;
   margin: 0 auto;
 }
@@ -4300,36 +4053,29 @@ Pricing Area
 }
 
 .button-bg1 {
-  background-image: -webkit-gradient(linear, left top, right top, from(#0f0788), to(#280fb8));
   background-image: linear-gradient(to right, #0f0788, #280fb8);
 }
 .button-bg1:hover {
-  background-image: -webkit-gradient(linear, left top, right top, from(#ff2500), to(#ff7100));
   background-image: linear-gradient(to right, #ff2500, #ff7100);
 }
 
 .button-bg2 {
-  background-image: -webkit-gradient(linear, left top, right top, from(#ff2500), to(#ff7100));
   background-image: linear-gradient(to right, #ff2500, #ff7100);
 }
 .button-bg2:hover {
-  background-image: -webkit-gradient(linear, left top, right top, from(rgba(7, 1, 0, 0.9803921569)), to(rgba(3, 2, 0, 0.6588235294)));
   background-image: linear-gradient(to right, rgba(7, 1, 0, 0.9803921569), rgba(3, 2, 0, 0.6588235294));
 }
 
 .button-bg3 {
-  background-image: -webkit-gradient(linear, left top, right top, from(rgba(7, 1, 0, 0.9803921569)), to(rgba(3, 2, 0, 0.6588235294)));
   background-image: linear-gradient(to right, rgba(7, 1, 0, 0.9803921569), rgba(3, 2, 0, 0.6588235294));
 }
 .button-bg3:hover {
-  background-image: -webkit-gradient(linear, left top, right top, from(#0f0788), to(#280fb8));
   background-image: linear-gradient(to right, #0f0788, #280fb8);
 }
 
 .pricing-card {
   border: 1px dashed #94b7e2;
   padding: 5px;
-  -webkit-transition: 0.7s;
   transition: 0.7s;
 }
 .pricing-card:hover {
@@ -4343,8 +4089,7 @@ Pricing Area
   position: relative;
   margin-top: -40px;
   background-color: #ffffff;
-  -webkit-box-shadow: 0 0 15px rgba(0, 0, 0, 0.03);
-          box-shadow: 0 0 15px rgba(0, 0, 0, 0.03);
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.03);
   width: 95px;
   height: 95px;
   font-size: 35px;
@@ -4411,43 +4156,37 @@ Pricing Area
   position: absolute;
   top: 20%;
   left: 0%;
-  -webkit-animation: running-in 16s infinite linear;
-          animation: running-in 16s infinite linear;
+  animation: running-in 16s infinite linear;
 }
 .pricing-shape .shape2 {
   position: absolute;
   top: 50%;
   left: 1%;
-  -webkit-animation: flash 5s infinite linear;
-          animation: flash 5s infinite linear;
+  animation: flash 5s infinite linear;
 }
 .pricing-shape .shape3 {
   position: absolute;
   bottom: 3%;
   left: 3%;
-  -webkit-animation: animationFramesOne 15s linear infinite;
-          animation: animationFramesOne 15s linear infinite;
+  animation: animationFramesOne 15s linear infinite;
 }
 .pricing-shape .shape4 {
   position: absolute;
   top: 7%;
   right: 7%;
-  -webkit-animation: rotated360 6s infinite linear;
-          animation: rotated360 6s infinite linear;
+  animation: rotated360 6s infinite linear;
 }
 .pricing-shape .shape5 {
   position: absolute;
   top: 25%;
   right: 0;
-  -webkit-animation: flash 5s infinite linear;
-          animation: flash 5s infinite linear;
+  animation: flash 5s infinite linear;
 }
 .pricing-shape .shape6 {
   position: absolute;
   top: 65%;
   right: 2%;
-  -webkit-animation: running-in 16s infinite linear;
-          animation: running-in 16s infinite linear;
+  animation: running-in 16s infinite linear;
 }
 
 /*==================================
@@ -4465,8 +4204,7 @@ Team Area
   margin-right: auto;
 }
 .team-area .center .team-item .team-content {
-  -webkit-transform: scale(1);
-          transform: scale(1);
+  transform: scale(1);
 }
 
 .team-bg-before::before {
@@ -4478,7 +4216,6 @@ Team Area
 }
 
 .team-bg-before-3::before {
-  background-image: -webkit-gradient(linear, left top, right top, from(#ff2500), to(#ff7100));
   background-image: linear-gradient(to right, #ff2500, #ff7100);
 }
 
@@ -4503,18 +4240,14 @@ Team Area
   height: 100%;
   border-radius: 60% 40% 60% 40%;
   z-index: -1;
-  -webkit-transform: rotate(23deg);
-          transform: rotate(23deg);
+  transform: rotate(23deg);
 }
 .team-item:hover .team-content {
-  -webkit-transform: scale(1);
-          transform: scale(1);
+  transform: scale(1);
 }
 .team-item .team-content {
   margin-top: 20px;
-  -webkit-transform: scale(0);
-          transform: scale(0);
-  -webkit-transition: 0.7s;
+  transform: scale(0);
   transition: 0.7s;
 }
 .team-item .team-content h3 {
@@ -4544,40 +4277,35 @@ Team Area
   line-height: 40px;
   text-align: center;
   background-color: #ffffff;
-  -webkit-box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
-          box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
 }
 .team-item .team-content .social-link li:nth-child(1) a {
   color: #3b5998;
 }
 .team-item .team-content .social-link li:nth-child(1) a:hover {
   color: #ff3900;
-  -webkit-animation: tada 1s linear;
-          animation: tada 1s linear;
+  animation: tada 1s linear;
 }
 .team-item .team-content .social-link li:nth-child(2) a {
   color: #55acee;
 }
 .team-item .team-content .social-link li:nth-child(2) a:hover {
   color: #ff3900;
-  -webkit-animation: tada 1s linear;
-          animation: tada 1s linear;
+  animation: tada 1s linear;
 }
 .team-item .team-content .social-link li:nth-child(3) a {
   color: #ff0000;
 }
 .team-item .team-content .social-link li:nth-child(3) a:hover {
   color: #ff3900;
-  -webkit-animation: tada 1s linear;
-          animation: tada 1s linear;
+  animation: tada 1s linear;
 }
 .team-item .team-content .social-link li:nth-child(4) a {
   color: #c80000;
 }
 .team-item .team-content .social-link li:nth-child(4) a:hover {
   color: #ff3900;
-  -webkit-animation: tada 1s linear;
-          animation: tada 1s linear;
+  animation: tada 1s linear;
 }
 
 .team-shape .team-shape1 {
@@ -4590,72 +4318,62 @@ Team Area
   position: absolute;
   top: 20%;
   left: 10%;
-  -webkit-animation: animationFramesOne 10s linear infinite;
-          animation: animationFramesOne 10s linear infinite;
+  animation: animationFramesOne 10s linear infinite;
 }
 .team-shape .team-shape3 {
   position: absolute;
   top: 20%;
   right: 10%;
-  -webkit-animation: rotated360 6s infinite linear;
-          animation: rotated360 6s infinite linear;
+  animation: rotated360 6s infinite linear;
 }
 .team-shape .team-shape4 {
   position: absolute;
   bottom: 5%;
   right: 40%;
-  -webkit-animation: animationFramesOne 10s linear infinite;
-          animation: animationFramesOne 10s linear infinite;
+  animation: animationFramesOne 10s linear infinite;
 }
 
 .team-two-shape .shape1 {
   position: absolute;
   top: 5%;
   left: 5%;
-  -webkit-animation: animationFramesOne 10s linear infinite;
-          animation: animationFramesOne 10s linear infinite;
+  animation: animationFramesOne 10s linear infinite;
 }
 .team-two-shape .shape2 {
   position: absolute;
   top: 40%;
   left: 2%;
-  -webkit-animation: rotated360 6s infinite linear;
-          animation: rotated360 6s infinite linear;
+  animation: rotated360 6s infinite linear;
 }
 .team-two-shape .shape3 {
   position: absolute;
   top: 60%;
   left: 1%;
-  -webkit-animation: running-in 15s linear infinite;
-          animation: running-in 15s linear infinite;
+  animation: running-in 15s linear infinite;
 }
 .team-two-shape .shape4 {
   position: absolute;
   top: 5%;
   right: 10%;
-  -webkit-animation: movebounce-up 4s linear infinite;
-          animation: movebounce-up 4s linear infinite;
+  animation: movebounce-up 4s linear infinite;
 }
 .team-two-shape .shape5 {
   position: absolute;
   top: 35%;
   right: 3%;
-  -webkit-animation: rotated360 6s infinite linear;
-          animation: rotated360 6s infinite linear;
+  animation: rotated360 6s infinite linear;
 }
 .team-two-shape .shape6 {
   position: absolute;
   top: 65%;
   right: 5%;
-  -webkit-animation: running-in 15s linear infinite;
-          animation: running-in 15s linear infinite;
+  animation: running-in 15s linear infinite;
 }
 .team-two-shape .shape7 {
   position: absolute;
   bottom: 0;
   right: 35%;
-  -webkit-animation: animationFramesOne 10s linear infinite;
-          animation: animationFramesOne 10s linear infinite;
+  animation: animationFramesOne 10s linear infinite;
 }
 
 .team-area-two {
@@ -4672,7 +4390,6 @@ Team Area
   left: 0;
   color: #ff3900 !important;
   background-color: transparent !important;
-  -webkit-transition: 0.7s;
   transition: 0.7s;
 }
 .team-area-two .owl-nav .owl-prev i {
@@ -4697,10 +4414,7 @@ Team Area
   top: 0px;
   left: 35px;
   font-size: 16px;
-  -webkit-transition: -webkit-transform 0.4s ease;
-  transition: -webkit-transform 0.4s ease;
   transition: transform 0.4s ease;
-  transition: transform 0.4s ease, -webkit-transform 0.4s ease;
 }
 .team-area-two .owl-nav .owl-next {
   position: absolute;
@@ -4708,7 +4422,6 @@ Team Area
   right: 0;
   color: #ff3900 !important;
   background-color: transparent !important;
-  -webkit-transition: 0.7s;
   transition: 0.7s;
 }
 .team-area-two .owl-nav .owl-next i {
@@ -4733,10 +4446,7 @@ Team Area
   top: 0px;
   right: 35px;
   font-size: 16px;
-  -webkit-transition: -webkit-transform 0.4s ease;
-  transition: -webkit-transform 0.4s ease;
   transition: transform 0.4s ease;
-  transition: transform 0.4s ease, -webkit-transform 0.4s ease;
 }
 
 .team-card {
@@ -4745,12 +4455,10 @@ Team Area
   margin-bottom: 30px;
 }
 .team-card.active .content {
-  -webkit-transform: scale(1);
-          transform: scale(1);
+  transform: scale(1);
 }
 .team-card:hover .content {
-  -webkit-transform: scale(1);
-          transform: scale(1);
+  transform: scale(1);
 }
 .team-card a {
   display: block;
@@ -4761,9 +4469,7 @@ Team Area
 }
 .team-card .content {
   margin-top: 20px;
-  -webkit-transform: scale(0);
-          transform: scale(0);
-  -webkit-transition: 0.7s;
+  transform: scale(0);
   transition: 0.7s;
 }
 .team-card .content h3 {
@@ -4792,40 +4498,35 @@ Team Area
   height: 35px;
   line-height: 37px;
   text-align: center;
-  -webkit-box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
-          box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
 }
 .team-card .content .social-link li:nth-child(1) a {
   color: #3b5998;
 }
 .team-card .content .social-link li:nth-child(1) a:hover {
   color: #ff3900;
-  -webkit-animation: tada 1s linear;
-          animation: tada 1s linear;
+  animation: tada 1s linear;
 }
 .team-card .content .social-link li:nth-child(2) a {
   color: #55acee;
 }
 .team-card .content .social-link li:nth-child(2) a:hover {
   color: #ff3900;
-  -webkit-animation: tada 1s linear;
-          animation: tada 1s linear;
+  animation: tada 1s linear;
 }
 .team-card .content .social-link li:nth-child(3) a {
   color: #ff0000;
 }
 .team-card .content .social-link li:nth-child(3) a:hover {
   color: #ff3900;
-  -webkit-animation: tada 1s linear;
-          animation: tada 1s linear;
+  animation: tada 1s linear;
 }
 .team-card .content .social-link li:nth-child(4) a {
   color: #c80000;
 }
 .team-card .content .social-link li:nth-child(4) a:hover {
   color: #ff3900;
-  -webkit-animation: tada 1s linear;
-          animation: tada 1s linear;
+  animation: tada 1s linear;
 }
 
 .team-card-mt {
@@ -4833,14 +4534,12 @@ Team Area
 }
 
 .team-rotated {
-  -webkit-transform: rotate(-5deg);
-          transform: rotate(-5deg);
+  transform: rotate(-5deg);
   margin-top: 100px;
 }
 
 .team-rotated-2 {
-  -webkit-transform: rotate(-3deg);
-          transform: rotate(-3deg);
+  transform: rotate(-3deg);
   margin-top: 90px;
 }
 
@@ -4874,8 +4573,7 @@ Testimonial Area
   position: absolute;
   top: -20px;
   left: 5%;
-  -webkit-animation: pulse 1s linear infinite;
-          animation: pulse 1s linear infinite;
+  animation: pulse 1s linear infinite;
 }
 .testimonial-list .list-img-2 {
   position: absolute;
@@ -4883,29 +4581,25 @@ Testimonial Area
   left: 0;
   right: 0;
   text-align: center;
-  -webkit-animation: pulse 1s linear infinite;
-          animation: pulse 1s linear infinite;
+  animation: pulse 1s linear infinite;
 }
 .testimonial-list .list-img-3 {
   position: absolute;
   top: 60%;
   left: -50px;
-  -webkit-animation: pulse 1s linear infinite;
-          animation: pulse 1s linear infinite;
+  animation: pulse 1s linear infinite;
 }
 .testimonial-list .list-img-4 {
   position: absolute;
   top: 5%;
   right: -20px;
-  -webkit-animation: pulse 1s linear infinite;
-          animation: pulse 1s linear infinite;
+  animation: pulse 1s linear infinite;
 }
 .testimonial-list .list-img-5 {
   position: absolute;
   bottom: 0;
   right: 110px;
-  -webkit-animation: pulse 2s linear infinite;
-          animation: pulse 2s linear infinite;
+  animation: pulse 2s linear infinite;
 }
 
 .testimonial-title h2 {
@@ -4933,7 +4627,6 @@ Testimonial Area
   position: absolute;
   color: #ff3900 !important;
   background-color: transparent !important;
-  -webkit-transition: 0.7s;
   transition: 0.7s;
 }
 .testimonial-slider .owl-nav .owl-next i {
@@ -4958,10 +4651,7 @@ Testimonial Area
   top: 0px;
   right: 35px;
   font-size: 16px;
-  -webkit-transition: -webkit-transform 0.4s ease;
-  transition: -webkit-transform 0.4s ease;
   transition: transform 0.4s ease;
-  transition: transform 0.4s ease, -webkit-transform 0.4s ease;
 }
 
 .testimonial-item p {
@@ -5001,14 +4691,11 @@ Testimonial Area
 .blog-card {
   margin-bottom: 30px;
   background-color: #ffffff;
-  -webkit-transition: 0.7s;
   transition: 0.7s;
-  -webkit-box-shadow: 0 0 15px rgba(0, 0, 0, 0.03);
-          box-shadow: 0 0 15px rgba(0, 0, 0, 0.03);
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.03);
 }
 .blog-card:hover {
-  -webkit-transform: translateY(-10px);
-          transform: translateY(-10px);
+  transform: translateY(-10px);
 }
 .blog-card:hover .content h3 a {
   color: #ff3900 !important;
@@ -5067,29 +4754,25 @@ Testimonial Area
   position: absolute;
   top: 30%;
   left: 2%;
-  -webkit-animation: animationFramesOne 10s linear infinite;
-          animation: animationFramesOne 10s linear infinite;
+  animation: animationFramesOne 10s linear infinite;
 }
 .blog-shape .shape2 {
   position: absolute;
   top: 60%;
   left: 4%;
-  -webkit-animation: animationFramesOne 15s linear infinite;
-          animation: animationFramesOne 15s linear infinite;
+  animation: animationFramesOne 15s linear infinite;
 }
 .blog-shape .shape3 {
   position: absolute;
   top: 50%;
   right: 2%;
-  -webkit-animation: flash 5s infinite linear;
-          animation: flash 5s infinite linear;
+  animation: flash 5s infinite linear;
 }
 .blog-shape .shape4 {
   position: absolute;
   top: 80%;
   right: 4%;
-  -webkit-animation: rotated360 6s infinite linear;
-          animation: rotated360 6s infinite linear;
+  animation: rotated360 6s infinite linear;
 }
 
 .blog-area-widget .title h2 {
@@ -5213,7 +4896,6 @@ Blog Details Area
 .blog-article .blog-article-share .blog-tag ul li {
   display: inline-block;
   padding: 5px 8px;
-  -webkit-transition: 0.7s;
   transition: 0.7s;
   color: #1a1b1e;
   font-weight: 600;
@@ -5247,48 +4929,42 @@ Blog Details Area
 }
 .blog-article .blog-article-share .social-icon li:nth-child(1) a:hover {
   background-color: #ff3900;
-  -webkit-animation: tada 1s linear;
-          animation: tada 1s linear;
+  animation: tada 1s linear;
 }
 .blog-article .blog-article-share .social-icon li:nth-child(2) a {
   background-color: #55acee;
 }
 .blog-article .blog-article-share .social-icon li:nth-child(2) a:hover {
   background-color: #ff3900;
-  -webkit-animation: tada 1s linear;
-          animation: tada 1s linear;
+  animation: tada 1s linear;
 }
 .blog-article .blog-article-share .social-icon li:nth-child(3) a {
   background-color: #3f729b;
 }
 .blog-article .blog-article-share .social-icon li:nth-child(3) a:hover {
   background-color: #ff3900;
-  -webkit-animation: tada 1s linear;
-          animation: tada 1s linear;
+  animation: tada 1s linear;
 }
 .blog-article .blog-article-share .social-icon li:nth-child(4) a {
   background-color: #ff0000;
 }
 .blog-article .blog-article-share .social-icon li:nth-child(4) a:hover {
   background-color: #ff3900;
-  -webkit-animation: tada 1s linear;
-          animation: tada 1s linear;
+  animation: tada 1s linear;
 }
 .blog-article .blog-article-share .social-icon li:nth-child(5) a {
   background-color: #c80000;
 }
 .blog-article .blog-article-share .social-icon li:nth-child(5) a:hover {
   background-color: #ff3900;
-  -webkit-animation: tada 1s linear;
-          animation: tada 1s linear;
+  animation: tada 1s linear;
 }
 .blog-article .article-author {
   margin-bottom: 40px;
   border-radius: 5px;
   background-color: #ffffff;
   position: relative;
-  -webkit-box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
-          box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
   padding: 60px 40px 10px;
 }
 .blog-article .article-author::before {
@@ -5436,7 +5112,6 @@ Blog Details Area
   font-size: 20px;
   margin-bottom: 0;
   margin-top: 15px;
-  -webkit-transition: 0.7s;
   transition: 0.7s;
   max-width: 600px;
   color: #2a284f;
@@ -5520,8 +5195,7 @@ Blog Details Area
   margin-bottom: 35px;
   border: 1px dashed #ff3900;
   background-color: #ffffff;
-  -webkit-box-shadow: 0 0 15px rgba(102, 102, 102, 0.1);
-          box-shadow: 0 0 15px rgba(102, 102, 102, 0.1);
+  box-shadow: 0 0 15px rgba(102, 102, 102, 0.1);
 }
 .blog-widget .title {
   font-size: 20px;
@@ -5545,8 +5219,7 @@ Blog Details Area
   border-radius: 0;
 }
 .blog-widget .search-widget .search-form .form-control:focus {
-  -webkit-box-shadow: none;
-          box-shadow: none;
+  box-shadow: none;
   outline: 0;
 }
 .blog-widget .search-widget .search-form button {
@@ -5555,9 +5228,7 @@ Blog Details Area
   right: 0;
   height: 50px;
   width: 50px;
-  background-image: -webkit-gradient(linear, left top, right top, from(#ff2500), to(#ff7100));
   background-image: linear-gradient(to right, #ff2500, #ff7100);
-  -webkit-transition: all 0.5s;
   transition: all 0.5s;
   border: none;
   outline: none;
@@ -5566,7 +5237,6 @@ Blog Details Area
   color: #ffffff;
 }
 .blog-widget .search-widget .search-form button:hover {
-  background-image: -webkit-gradient(linear, left top, right top, from(#001aff), to(#15094d));
   background-image: linear-gradient(to right, #001aff, #15094d);
 }
 .blog-widget .widget_categories {
@@ -5607,7 +5277,6 @@ Blog Details Area
 .blog-widget .blog-widget-tag li {
   display: inline-block;
   padding: 0 5px;
-  -webkit-transition: 0.7s;
   transition: 0.7s;
   color: #777777;
   font-size: 16px;
@@ -5627,7 +5296,6 @@ Blog Details Area End
 Project Area
 =================================*/
 .project-area {
-  background-image: -webkit-gradient(linear, left top, right top, from(#ff2500), to(#ff7100));
   background-image: linear-gradient(to right, #ff2500, #ff7100);
   padding: 65px 0;
   max-width: 1740px;
@@ -5671,7 +5339,6 @@ Project Area
   right: 0;
   opacity: 0;
   z-index: -1;
-  -webkit-transition: 0.7s;
   transition: 0.7s;
 }
 .project-content .project-btn:hover::before {
@@ -5715,8 +5382,7 @@ Faq Area
   display: block;
   background-color: #ffffff;
   margin-bottom: 15px;
-  -webkit-box-shadow: 0 0 20px 3px rgba(0, 0, 0, 0.05);
-          box-shadow: 0 0 20px 3px rgba(0, 0, 0, 0.05);
+  box-shadow: 0 0 20px 3px rgba(0, 0, 0, 0.05);
 }
 .faq-accordion .accordion .accordion-item:last-child {
   margin-bottom: 0;
@@ -5735,7 +5401,6 @@ Faq Area
   right: 15px;
   top: 15px;
   font-size: 25px;
-  -webkit-transition: 0.5s;
   transition: 0.5s;
   font-size: 24px;
   width: 40px;
@@ -5746,8 +5411,7 @@ Faq Area
   background-color: #2a284f;
 }
 .faq-accordion .accordion .accordion-title.active i {
-  -webkit-transform: rotate(180deg);
-          transform: rotate(180deg);
+  transform: rotate(180deg);
   top: 15px;
 }
 .faq-accordion .accordion .accordion-content {
@@ -5809,8 +5473,7 @@ Contact Area
   margin-bottom: 30px;
   background-color: #ffffff;
   padding: 50px 30px;
-  -webkit-box-shadow: 0 0 15px rgba(0, 0, 0, 0.05);
-          box-shadow: 0 0 15px rgba(0, 0, 0, 0.05);
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.05);
   text-align: center;
 }
 .contact-card i {
@@ -5843,7 +5506,6 @@ Contact Area
   border: 1px dashed #ff3900;
   border-radius: 50px;
   text-align: center;
-  -webkit-transition: 0.7s;
   transition: 0.7s;
 }
 
@@ -5878,8 +5540,7 @@ Contact Area
   padding: 50px;
   max-width: 740px;
   background-color: #ffffff;
-  -webkit-box-shadow: 0 0 15px rgba(0, 0, 0, 0.05);
-          box-shadow: 0 0 15px rgba(0, 0, 0, 0.05);
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.05);
 }
 .contact-form .section-title {
   margin-bottom: 30px;
@@ -5918,8 +5579,7 @@ Contact Area
 .contact-form .form-group .form-control:focus {
   outline: none;
   border-color: #ffc0a7;
-  -webkit-box-shadow: none;
-          box-shadow: none;
+  box-shadow: none;
 }
 .contact-form .form-group textarea.form-control {
   height: auto;
@@ -5942,18 +5602,6 @@ Contact Area
   outline: none;
 }
 
-.contact-form .form-group .form-control::-webkit-input-placeholder {
-  color: #7f7f7f;
-}
-
-.contact-form .form-group .form-control:-ms-input-placeholder {
-  color: #7f7f7f;
-}
-
-.contact-form .form-group .form-control::-ms-input-placeholder {
-  color: #7f7f7f;
-}
-
 .contact-form .form-group .form-control::-moz-placeholder {
   color: #7f7f7f;
 }
@@ -5972,8 +5620,7 @@ Contact Area
   margin-bottom: 35px;
   border: 1px dashed #ff3900;
   background-color: #ffffff;
-  -webkit-box-shadow: 0 0 15px rgba(102, 102, 102, 0.1);
-          box-shadow: 0 0 15px rgba(102, 102, 102, 0.1);
+  box-shadow: 0 0 15px rgba(102, 102, 102, 0.1);
 }
 .contact-widget h2 {
   font-size: 20px;
@@ -6141,40 +5788,35 @@ Footer Area
 }
 .footer-social-icon .social-link li:nth-child(1) a:hover {
   background-color: #ff3900;
-  -webkit-animation: tada 1s linear;
-          animation: tada 1s linear;
+  animation: tada 1s linear;
 }
 .footer-social-icon .social-link li:nth-child(2) a {
   background-color: #55acee;
 }
 .footer-social-icon .social-link li:nth-child(2) a:hover {
   background-color: #ff3900;
-  -webkit-animation: tada 1s linear;
-          animation: tada 1s linear;
+  animation: tada 1s linear;
 }
 .footer-social-icon .social-link li:nth-child(3) a {
   background-color: #3f729b;
 }
 .footer-social-icon .social-link li:nth-child(3) a:hover {
   background-color: #ff3900;
-  -webkit-animation: tada 1s linear;
-          animation: tada 1s linear;
+  animation: tada 1s linear;
 }
 .footer-social-icon .social-link li:nth-child(4) a {
   background-color: #0a66c2;
 }
 .footer-social-icon .social-link li:nth-child(4) a:hover {
   background-color: #ff3900;
-  -webkit-animation: tada 1s linear;
-          animation: tada 1s linear;
+  animation: tada 1s linear;
 }
 .footer-social-icon .social-link li:nth-child(5) a {
   background-color: #c80000;
 }
 .footer-social-icon .social-link li:nth-child(5) a:hover {
   background-color: #ff3900;
-  -webkit-animation: tada 1s linear;
-          animation: tada 1s linear;
+  animation: tada 1s linear;
 }
 
 .footer-widget {
@@ -6247,8 +5889,7 @@ Footer Area
 }
 .newsletter-form .form-control {
   background: #ffffff;
-  -webkit-box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
-          box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
   height: 45px;
   line-height: 45px;
   margin: 0;
@@ -6468,7 +6109,6 @@ Coming Soon Area
   padding-left: 15px;
   color: #ffffff;
   outline: 0;
-  -webkit-transition: 0.5s;
   transition: 0.5s;
   border-radius: 0;
   border: 1px solid #2a284f;
@@ -6491,7 +6131,6 @@ Coming Soon Area
   text-transform: uppercase;
   outline: 0;
   color: #ffffff;
-  -webkit-transition: 0.5s;
   transition: 0.5s;
   font-weight: 500;
   font-size: 15px;
@@ -6586,7 +6225,6 @@ Preloader CSS
   width: 100%;
   height: 100%;
   z-index: 99999;
-  background-image: -webkit-gradient(linear, left top, right top, from(#2966be), to(#55acee));
   background-image: linear-gradient(to right, #2966be, #55acee);
 }
 
@@ -6596,8 +6234,7 @@ Preloader CSS
   border-radius: 5px;
   background-color: #ffffff;
   margin: 100px auto;
-  -webkit-animation: rotate-in 1.2s infinite ease-in-out;
-          animation: rotate-in 1.2s infinite ease-in-out;
+  animation: rotate-in 1.2s infinite ease-in-out;
 }
 
 /*==================================
@@ -6616,26 +6253,21 @@ Back To Top Button
 }
 
 .top-btn {
-  background-image: -webkit-gradient(linear, left top, right top, from(#ff2500), to(#ff7100));
   background-image: linear-gradient(to right, #ff2500, #ff7100);
   color: #ffffff;
   width: 45px;
   height: 45px;
   border-radius: 50%;
-  -webkit-box-shadow: 0 0 15px #ff3900;
-          box-shadow: 0 0 15px #ff3900;
+  box-shadow: 0 0 15px #ff3900;
   font-size: 20px;
   display: inline-block;
   text-align: center;
   line-height: 45px;
-  -webkit-transition: 0.9s;
   transition: 0.9s;
 }
 .top-btn:hover {
-  background-image: -webkit-gradient(linear, left top, right top, from(rgba(7, 1, 0, 0.9058823529)), to(rgba(7, 3, 0, 0.7333333333)));
   background-image: linear-gradient(to right, rgba(7, 1, 0, 0.9058823529), rgba(7, 3, 0, 0.7333333333));
-  -webkit-box-shadow: 0 0 15px #1a1b1e;
-          box-shadow: 0 0 15px #1a1b1e;
+  box-shadow: 0 0 15px #1a1b1e;
   color: #fff;
 }
 
@@ -6645,115 +6277,43 @@ Back To Top Button
 /*==================================
 Animation CSS
 ====================================*/
-@-webkit-keyframes rotated360 {
-  0% {
-    -webkit-transform: rotateZ(0deg);
-    transform: rotateZ(0deg);
-  }
-  100% {
-    -webkit-transform: rotateZ(-360deg);
-    transform: rotateZ(-360deg);
-  }
-}
 @keyframes rotated360 {
   0% {
-    -webkit-transform: rotateZ(0deg);
     transform: rotateZ(0deg);
   }
   100% {
-    -webkit-transform: rotateZ(-360deg);
     transform: rotateZ(-360deg);
-  }
-}
-@-webkit-keyframes rotate-in {
-  0% {
-    -webkit-transform: perspective(120px) rotateX(0deg) rotateY(0deg);
-    transform: perspective(120px) rotateX(0deg) rotateY(0deg);
-  }
-  50% {
-    -webkit-transform: perspective(120px) rotateX(-180.1deg) rotateY(0deg);
-    transform: perspective(120px) rotateX(-180.1deg) rotateY(0deg);
-  }
-  100% {
-    -webkit-transform: perspective(120px) rotateX(-180deg) rotateY(-179.9deg);
-    transform: perspective(120px) rotateX(-180deg) rotateY(-179.9deg);
   }
 }
 @keyframes rotate-in {
   0% {
-    -webkit-transform: perspective(120px) rotateX(0deg) rotateY(0deg);
     transform: perspective(120px) rotateX(0deg) rotateY(0deg);
   }
   50% {
-    -webkit-transform: perspective(120px) rotateX(-180.1deg) rotateY(0deg);
     transform: perspective(120px) rotateX(-180.1deg) rotateY(0deg);
   }
   100% {
-    -webkit-transform: perspective(120px) rotateX(-180deg) rotateY(-179.9deg);
     transform: perspective(120px) rotateX(-180deg) rotateY(-179.9deg);
-  }
-}
-@-webkit-keyframes animationFramesOne {
-  0% {
-    -webkit-transform: translate(0px, 0px) rotate(0deg);
-    transform: translate(0px, 0px) rotate(0deg);
-  }
-  20% {
-    -webkit-transform: translate(73px, -1px) rotate(36deg);
-    transform: translate(73px, -1px) rotate(36deg);
-  }
-  40% {
-    -webkit-transform: translate(141px, 72px) rotate(72deg);
-    transform: translate(141px, 72px) rotate(72deg);
-  }
-  60% {
-    -webkit-transform: translate(83px, 122px) rotate(108deg);
-    transform: translate(83px, 122px) rotate(108deg);
-  }
-  80% {
-    -webkit-transform: translate(-40px, 72px) rotate(144deg);
-    transform: translate(-40px, 72px) rotate(144deg);
-  }
-  100% {
-    -webkit-transform: translate(0px, 0px) rotate(0deg);
-    transform: translate(0px, 0px) rotate(0deg);
   }
 }
 @keyframes animationFramesOne {
   0% {
-    -webkit-transform: translate(0px, 0px) rotate(0deg);
     transform: translate(0px, 0px) rotate(0deg);
   }
   20% {
-    -webkit-transform: translate(73px, -1px) rotate(36deg);
     transform: translate(73px, -1px) rotate(36deg);
   }
   40% {
-    -webkit-transform: translate(141px, 72px) rotate(72deg);
     transform: translate(141px, 72px) rotate(72deg);
   }
   60% {
-    -webkit-transform: translate(83px, 122px) rotate(108deg);
     transform: translate(83px, 122px) rotate(108deg);
   }
   80% {
-    -webkit-transform: translate(-40px, 72px) rotate(144deg);
     transform: translate(-40px, 72px) rotate(144deg);
   }
   100% {
-    -webkit-transform: translate(0px, 0px) rotate(0deg);
     transform: translate(0px, 0px) rotate(0deg);
-  }
-}
-@-webkit-keyframes opacity-option {
-  0% {
-    opacity: 1;
-  }
-  50% {
-    opacity: 0.05;
-  }
-  100% {
-    opacity: 1;
   }
 }
 @keyframes opacity-option {
@@ -6767,118 +6327,48 @@ Animation CSS
     opacity: 1;
   }
 }
-@-webkit-keyframes running-in {
-  0% {
-    -webkit-transform: translate(0, 0);
-    transform: translate(0, 0);
-  }
-  50% {
-    -webkit-transform: translate(-10px, 150px);
-    transform: translate(-10px, 150px);
-  }
-  100% {
-    -webkit-transform: translate(0, 0);
-    transform: translate(0, 0);
-  }
-}
 @keyframes running-in {
   0% {
-    -webkit-transform: translate(0, 0);
     transform: translate(0, 0);
   }
   50% {
-    -webkit-transform: translate(-10px, 150px);
     transform: translate(-10px, 150px);
   }
   100% {
-    -webkit-transform: translate(0, 0);
     transform: translate(0, 0);
-  }
-}
-@-webkit-keyframes movebounce-in {
-  0% {
-    -webkit-transform: translateX(0px);
-    transform: translateX(0px);
-  }
-  50% {
-    -webkit-transform: translateX(70px);
-    transform: translateX(70px);
-  }
-  100% {
-    -webkit-transform: translateX(0px);
-    transform: translateX(0px);
   }
 }
 @keyframes movebounce-in {
   0% {
-    -webkit-transform: translateX(0px);
     transform: translateX(0px);
   }
   50% {
-    -webkit-transform: translateX(70px);
     transform: translateX(70px);
   }
   100% {
-    -webkit-transform: translateX(0px);
     transform: translateX(0px);
-  }
-}
-@-webkit-keyframes movebounce-up {
-  0% {
-    -webkit-transform: translateY(0px);
-    transform: translateY(0px);
-  }
-  50% {
-    -webkit-transform: translateY(20px);
-    transform: translateY(20px);
-  }
-  100% {
-    -webkit-transform: translateY(0px);
-    transform: translateY(0px);
   }
 }
 @keyframes movebounce-up {
   0% {
-    -webkit-transform: translateY(0px);
     transform: translateY(0px);
   }
   50% {
-    -webkit-transform: translateY(20px);
     transform: translateY(20px);
   }
   100% {
-    -webkit-transform: translateY(0px);
     transform: translateY(0px);
-  }
-}
-@-webkit-keyframes ripple {
-  0% {
-    -webkit-transform: scale(1);
-    transform: scale(1);
-  }
-  75% {
-    -webkit-transform: scale(1.75);
-    transform: scale(1.75);
-    opacity: 1;
-  }
-  100% {
-    -webkit-transform: scale(2);
-    transform: scale(2);
-    opacity: 0;
   }
 }
 @keyframes ripple {
   0% {
-    -webkit-transform: scale(1);
     transform: scale(1);
   }
   75% {
-    -webkit-transform: scale(1.75);
     transform: scale(1.75);
     opacity: 1;
   }
   100% {
-    -webkit-transform: scale(2);
     transform: scale(2);
     opacity: 0;
   }
@@ -6894,15 +6384,13 @@ Buy Now Btn
   z-index: 99;
   top: 50%;
   position: fixed;
-  -webkit-transform: translateY(-50%);
-          transform: translateY(-50%);
+  transform: translateY(-50%);
   border-radius: 30px;
   display: inline-block;
   color: #ffffff;
   background-color: #82b440;
   padding: 10px 20px 10px 42px;
-  -webkit-box-shadow: 0 1px 20px 1px #82b440;
-          box-shadow: 0 1px 20px 1px #82b440;
+  box-shadow: 0 1px 20px 1px #82b440;
   font-size: 13px;
   font-weight: 600;
 }
@@ -6911,8 +6399,7 @@ Buy Now Btn
   left: 20px;
   width: 15px;
   position: absolute;
-  -webkit-transform: translateY(-50%);
-          transform: translateY(-50%);
+  transform: translateY(-50%);
 }
 .buy-now-btn:hover {
   color: #ffffff;
@@ -6920,13 +6407,11 @@ Buy Now Btn
 }
 
 .one {
-  -webkit-transform: translate(15%, 17px);
-          transform: translate(15%, 17px);
+  transform: translate(15%, 17px);
 }
 
 .three {
-  -webkit-transform: translate(-17%, 20px);
-          transform: translate(-17%, 20px);
+  transform: translate(-17%, 20px);
 }
 
 .fifth-session {
@@ -6948,16 +6433,10 @@ Buy Now Btn
   position: absolute;
   left: 0;
   right: 0;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  justify-content: center;
   height: calc(100% - 100px);
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  align-items: center;
 }
 .session-third .inner-text.growth-text {
   height: calc(100% - 60px) !important;
@@ -7010,10 +6489,8 @@ Buy Now Btn
   background-repeat: no-repeat;
   z-index: -99;
   top: calc(100% - 125px);
-  -webkit-animation-delay: 5s;
-          animation-delay: 5s;
-  -webkit-animation: flash 5s infinite;
-          animation: flash 5s infinite;
+  animation-delay: 5s;
+  animation: flash 5s infinite;
 }
 .session-third::after {
   content: "";
@@ -7026,45 +6503,34 @@ Buy Now Btn
   background-repeat: no-repeat;
   z-index: -99;
   top: calc(100% - 125px);
-  -webkit-animation: flash 5s infinite;
-          animation: flash 5s infinite;
-  -webkit-animation-delay: 5s;
-          animation-delay: 5s;
+  animation: flash 5s infinite;
+  animation-delay: 5s;
   background-position: right;
   right: 0;
 }
 @media (min-width: 1200px) {
   .session-third .third-align-card {
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
+    align-items: center;
   }
 }
 @media (min-width: 2000px) {
   .session-third .third-align-card {
-    -webkit-box-align: end;
-        -ms-flex-align: end;
-            align-items: flex-end;
+    align-items: flex-end;
   }
 }
 @media only screen and (min-width: 768px) and (max-width: 1023px) {
   .session-third .third-align-card {
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
+    align-items: center;
   }
 }
 @media only screen and (min-width: 1024px) and (max-width: 1199px) {
   .session-third .third-align-card {
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
+    align-items: center;
   }
 }
 
 .card-box {
-  -webkit-box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
-          box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
   margin: 20px 20px;
 }
 
@@ -7078,8 +6544,7 @@ Buy Now Btn
 }
 
 .j-around {
-  -ms-flex-pack: distribute;
-      justify-content: space-around;
+  justify-content: space-around;
 }
 
 #one {
@@ -7100,7 +6565,6 @@ Buy Now Btn
   text-transform: uppercase;
   font-size: 1rem;
   letter-spacing: 0.15rem;
-  -webkit-transition: all 0.3s;
   transition: all 0.3s;
   position: relative;
   overflow: hidden;
@@ -7116,22 +6580,18 @@ Buy Now Btn
   left: 0;
   width: 0%;
   height: 100%;
-  background: -webkit-gradient(linear, left top, left bottom, from(#7BA6E2), to(#1256B6));
   background: linear-gradient(#7BA6E2, #1256B6);
-  -webkit-transition: all 0.9s;
   transition: all 0.9s;
   border-radius: 10rem;
   z-index: -1;
-  -webkit-animation: gani 0.9s infinite;
-          animation: gani 0.9s infinite;
+  animation: gani 0.9s infinite;
 }
 .play-more:hover {
   color: #fff;
 }
 .play-more:hover:before {
   width: 100%;
-  -webkit-animation: gani 0s 1;
-          animation: gani 0s 1;
+  animation: gani 0s 1;
 }
 
 .footer-list-line {
@@ -7140,15 +6600,6 @@ Buy Now Btn
 
 .w-80 {
   width: 80%;
-}
-
-@-webkit-keyframes gani {
-  0% {
-    width: 0px;
-  }
-  100% {
-    width: 200px;
-  }
 }
 
 @keyframes gani {
@@ -7180,29 +6631,6 @@ Buy Now Btn
   display: none;
 }
 
-@-webkit-keyframes result {
-  0% {
-    opacity: 0;
-  }
-  20% {
-    opacity: 0.3;
-  }
-  50% {
-    opacity: 0.5;
-  }
-  100% {
-    opacity: 1;
-  }
-  from {
-    -webkit-transform: translateY(5%);
-            transform: translateY(5%);
-  }
-  to {
-    -webkit-transform: translateY(0%);
-            transform: translateY(0%);
-  }
-}
-
 @keyframes result {
   0% {
     opacity: 0;
@@ -7217,12 +6645,10 @@ Buy Now Btn
     opacity: 1;
   }
   from {
-    -webkit-transform: translateY(5%);
-            transform: translateY(5%);
+    transform: translateY(5%);
   }
   to {
-    -webkit-transform: translateY(0%);
-            transform: translateY(0%);
+    transform: translateY(0%);
   }
 }
 .animate-charcter {
@@ -7235,16 +6661,9 @@ Buy Now Btn
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  -webkit-animation: textclip 2s linear infinite;
-          animation: textclip 2s linear infinite;
+  animation: textclip 2s linear infinite;
   display: inline-block;
   font-size: 190px;
-}
-
-@-webkit-keyframes textclip {
-  to {
-    background-position: -200% center;
-  }
 }
 
 @keyframes textclip {
@@ -7253,13 +6672,11 @@ Buy Now Btn
   }
 }
 .flex-wraps {
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
+  flex-wrap: wrap;
 }
 
 .segment {
-  -webkit-box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
-          box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
   background-color: #1256b6;
   position: relative;
 }
@@ -7290,8 +6707,7 @@ area {
   width: 20px;
   height: 20px;
   background: rgba(255, 255, 255, 0.2);
-  -webkit-animation: animate 25s linear infinite;
-          animation: animate 25s linear infinite;
+  animation: animate 25s linear infinite;
   bottom: -150px;
 }
 
@@ -7310,117 +6726,85 @@ area {
   left: 25%;
   width: 80px;
   height: 80px;
-  -webkit-animation-delay: 0s;
-          animation-delay: 0s;
+  animation-delay: 0s;
 }
 
 .circles li:nth-child(2) {
   left: 10%;
   width: 20px;
   height: 20px;
-  -webkit-animation-delay: 2s;
-          animation-delay: 2s;
-  -webkit-animation-duration: 12s;
-          animation-duration: 12s;
+  animation-delay: 2s;
+  animation-duration: 12s;
 }
 
 .circles li:nth-child(3) {
   left: 70%;
   width: 20px;
   height: 20px;
-  -webkit-animation-delay: 4s;
-          animation-delay: 4s;
+  animation-delay: 4s;
 }
 
 .circles li:nth-child(4) {
   left: 40%;
   width: 60px;
   height: 60px;
-  -webkit-animation-delay: 0s;
-          animation-delay: 0s;
-  -webkit-animation-duration: 18s;
-          animation-duration: 18s;
+  animation-delay: 0s;
+  animation-duration: 18s;
 }
 
 .circles li:nth-child(5) {
   left: 65%;
   width: 20px;
   height: 20px;
-  -webkit-animation-delay: 0s;
-          animation-delay: 0s;
+  animation-delay: 0s;
 }
 
 .circles li:nth-child(6) {
   left: 75%;
   width: 110px;
   height: 110px;
-  -webkit-animation-delay: 3s;
-          animation-delay: 3s;
+  animation-delay: 3s;
 }
 
 .circles li:nth-child(7) {
   left: 35%;
   width: 150px;
   height: 150px;
-  -webkit-animation-delay: 7s;
-          animation-delay: 7s;
+  animation-delay: 7s;
 }
 
 .circles li:nth-child(8) {
   left: 50%;
   width: 25px;
   height: 25px;
-  -webkit-animation-delay: 15s;
-          animation-delay: 15s;
-  -webkit-animation-duration: 45s;
-          animation-duration: 45s;
+  animation-delay: 15s;
+  animation-duration: 45s;
 }
 
 .circles li:nth-child(9) {
   left: 20%;
   width: 15px;
   height: 15px;
-  -webkit-animation-delay: 2s;
-          animation-delay: 2s;
-  -webkit-animation-duration: 35s;
-          animation-duration: 35s;
+  animation-delay: 2s;
+  animation-duration: 35s;
 }
 
 .circles li:nth-child(10) {
   left: 85%;
   width: 150px;
   height: 150px;
-  -webkit-animation-delay: 0s;
-          animation-delay: 0s;
-  -webkit-animation-duration: 11s;
-          animation-duration: 11s;
-}
-
-@-webkit-keyframes animate {
-  0% {
-    -webkit-transform: translateY(0) rotate(0deg);
-            transform: translateY(0) rotate(0deg);
-    opacity: 1;
-    border-radius: 0;
-  }
-  100% {
-    -webkit-transform: translateY(-900px) rotate(720deg);
-            transform: translateY(-900px) rotate(720deg);
-    opacity: 0;
-    border-radius: 50%;
-  }
+  animation-delay: 0s;
+  animation-duration: 11s;
 }
 
 @keyframes animate {
   0% {
-    -webkit-transform: translateY(0) rotate(0deg);
-            transform: translateY(0) rotate(0deg);
+    transform: translateY(0) rotate(0deg);
     opacity: 1;
     border-radius: 0;
   }
   100% {
-    -webkit-transform: translateY(-900px) rotate(720deg);
-            transform: translateY(-900px) rotate(720deg);
+    transform: translateY(-900px) rotate(720deg);
     opacity: 0;
     border-radius: 50%;
   }
@@ -7435,13 +6819,11 @@ area {
 }
 
 .appian-box {
-  -webkit-box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
-          box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
 
 .about-img-2 {
-  -webkit-filter: drop-shadow(8px 5px 5px rgba(251, 177, 239, 0.7294117647));
-          filter: drop-shadow(8px 5px 5px rgba(251, 177, 239, 0.7294117647));
+  filter: drop-shadow(8px 5px 5px rgba(251, 177, 239, 0.7294117647));
 }
 
 .main-nav nav .navbar-nav .nav-item .dropdown-menu {
@@ -7476,9 +6858,7 @@ area {
 }
 .first-section .first-row {
   height: 90vh;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  align-items: center;
 }
 @media (min-width: 1350px) {
   .first-section .first-row {
@@ -7535,8 +6915,7 @@ area {
   right: 10%;
 }
 .first-section .gare-circle-low img {
-  -webkit-animation: rotating 7s linear infinite;
-          animation: rotating 7s linear infinite;
+  animation: rotating 7s linear infinite;
 }
 .first-section .gare-circle-samll {
   position: absolute;
@@ -7544,8 +6923,7 @@ area {
   right: 25%;
 }
 .first-section .gare-circle-samll img {
-  -webkit-animation: rotating 7s linear infinite;
-          animation: rotating 7s linear infinite;
+  animation: rotating 7s linear infinite;
 }
 .first-section .man-path {
   position: absolute;
@@ -7568,8 +6946,7 @@ area {
   left: 0;
 }
 .first-section .gare-circle img {
-  -webkit-animation: rotating 7s linear infinite;
-          animation: rotating 7s linear infinite;
+  animation: rotating 7s linear infinite;
 }
 .first-section .laptop-div {
   position: absolute;
@@ -7637,7 +7014,7 @@ area {
 }
 @media (max-width: 991px) {
   .methodology .First-text .arrow-1 {
-    bottom: 292px;
+    bottom: 317px;
   }
 }
 .methodology .First-text .arrow-2 {
@@ -7647,7 +7024,7 @@ area {
 }
 @media (max-width: 991px) {
   .methodology .First-text .arrow-2 {
-    bottom: 292px;
+    bottom: 317px;
   }
 }
 .methodology .First-text .omni-text {
@@ -7703,29 +7080,25 @@ area {
   position: absolute;
   top: 14rem;
   left: 16rem;
-  -webkit-animation: rotating 7s linear infinite;
-          animation: rotating 7s linear infinite;
+  animation: rotating 7s linear infinite;
 }
 .left-part .polygon-2 {
   position: absolute;
   top: 13.5rem;
   left: 34rem;
-  -webkit-animation: rotating 7s linear infinite;
-          animation: rotating 7s linear infinite;
+  animation: rotating 7s linear infinite;
 }
 .left-part .polygon-3 {
   position: absolute;
   top: 51rem;
   left: 25rem;
-  -webkit-animation: rotating 7s linear infinite;
-          animation: rotating 7s linear infinite;
+  animation: rotating 7s linear infinite;
 }
 .left-part .polygon-4 {
   position: absolute;
   top: 55rem;
   left: 21rem;
-  -webkit-animation: rotating 7s linear infinite;
-          animation: rotating 7s linear infinite;
+  animation: rotating 7s linear infinite;
 }
 .left-part .robo {
   position: relative;
@@ -7772,11 +7145,8 @@ area {
   font-weight: 500;
 }
 .second-session .card-flex {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
+  flex-wrap: wrap;
 }
 .second-session .card-flex p {
   font-size: 14px;
@@ -7848,14 +7218,8 @@ area {
 }
 .third-session .third-session-keypoints {
   height: 530px;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  display: -webkit-box;
-  display: -ms-flexbox;
+  align-items: center;
+  justify-content: center;
   display: flex;
   position: relative;
 }
@@ -7923,10 +7287,7 @@ area {
 @media (max-width: 767px) {
   .third-session .third-session-keypoints .common-box-one {
     right: 0px;
-    -webkit-box-orient: horizontal;
-    -webkit-box-direction: reverse;
-        -ms-flex-direction: row-reverse;
-            flex-direction: row-reverse;
+    flex-direction: row-reverse;
   }
 }
 .third-session .third-session-keypoints .common-box-one-right {
@@ -7945,10 +7306,7 @@ area {
 @media (max-width: 767px) {
   .third-session .third-session-keypoints .third-session-keyboxs :nth-child(2) {
     right: 0px;
-    -webkit-box-orient: horizontal;
-    -webkit-box-direction: reverse;
-        -ms-flex-direction: row-reverse;
-            flex-direction: row-reverse;
+    flex-direction: row-reverse;
   }
 }
 .third-session .third-session-keypoints .third-session-keyboxs :nth-child(3) {
@@ -7958,10 +7316,7 @@ area {
 @media (max-width: 767px) {
   .third-session .third-session-keypoints .third-session-keyboxs :nth-child(3) {
     right: 0px;
-    -webkit-box-orient: horizontal;
-    -webkit-box-direction: reverse;
-        -ms-flex-direction: row-reverse;
-            flex-direction: row-reverse;
+    flex-direction: row-reverse;
   }
 }
 .third-session .third-session-keypoints .third-session-keyboxs-right :nth-child(2) {
@@ -8038,8 +7393,7 @@ area {
   place-items: center;
   background: radial-gradient(155.19% 155.19% at -20.62% -35.88%, #FF9D0B 0%, #FF4D00 100%);
   margin-bottom: 15px;
-  -webkit-animation: movebounce-up 5s infinite;
-          animation: movebounce-up 5s infinite;
+  animation: movebounce-up 5s infinite;
 }
 .mini-section .benifits-card .benfits-flow {
   font-weight: 700;
@@ -8053,39 +7407,22 @@ area {
   background: radial-gradient(123.86% 123.86% at -5.19% -18.67%, #930AFF 0%, #FA07FF 100%);
   position: relative;
   opacity: 0;
-  -webkit-animation: movebounce-up 5s infinite;
-          animation: movebounce-up 5s infinite;
-  -webkit-animation-delay: 2s;
-          animation-delay: 2s;
+  animation: movebounce-up 5s infinite;
+  animation-delay: 2s;
 }
 .mini-section .two.active {
   opacity: 1;
 }
 .mini-section .active.fade-bottom {
-  -webkit-animation: fade-bottom 1s ease-in;
-          animation: fade-bottom 1s ease-in;
-}
-@-webkit-keyframes fade-bottom {
-  0% {
-    -webkit-transform: translateY(50px);
-            transform: translateY(50px);
-    opacity: 0;
-  }
-  100% {
-    -webkit-transform: translateY(0);
-            transform: translateY(0);
-    opacity: 1;
-  }
+  animation: fade-bottom 1s ease-in;
 }
 @keyframes fade-bottom {
   0% {
-    -webkit-transform: translateY(50px);
-            transform: translateY(50px);
+    transform: translateY(50px);
     opacity: 0;
   }
   100% {
-    -webkit-transform: translateY(0);
-            transform: translateY(0);
+    transform: translateY(0);
     opacity: 1;
   }
 }
@@ -8093,33 +7430,27 @@ area {
   background: linear-gradient(138.3deg, #00D1FF -13.67%, #19C69C 103.52%);
   position: relative;
   opacity: 0;
-  -webkit-animation: movebounce-up 5s infinite;
-          animation: movebounce-up 5s infinite;
-  -webkit-animation-delay: 3s;
-          animation-delay: 3s;
+  animation: movebounce-up 5s infinite;
+  animation-delay: 3s;
 }
 .mini-section .threes.active {
   opacity: 1;
 }
 .mini-section .active.fade-bottom {
-  -webkit-animation: fade-bottom 1s ease-in;
-          animation: fade-bottom 1s ease-in;
+  animation: fade-bottom 1s ease-in;
 }
 .mini-section .four {
   background: linear-gradient(145.76deg, #EE4646 -14.2%, rgba(242, 194, 69, 0.96) 117.67%);
   position: relative;
   opacity: 0;
-  -webkit-animation: movebounce-up 5s infinite;
-          animation: movebounce-up 5s infinite;
-  -webkit-animation-delay: 4s;
-          animation-delay: 4s;
+  animation: movebounce-up 5s infinite;
+  animation-delay: 4s;
 }
 .mini-section .four.active {
   opacity: 1;
 }
 .mini-section .active.fade-bottom {
-  -webkit-animation: fade-bottom 1s ease-in;
-          animation: fade-bottom 1s ease-in;
+  animation: fade-bottom 1s ease-in;
 }
 .mini-section .first-card {
   position: relative;
@@ -8129,14 +7460,12 @@ area {
   opacity: 1;
 }
 .mini-section .first-card.fade-bottom {
-  -webkit-animation: fade-bottom 1s ease-in;
-          animation: fade-bottom 1s ease-in;
+  animation: fade-bottom 1s ease-in;
 }
 
 .card-align {
   border: 0px !important;
-  -webkit-box-shadow: 0px 4px 13px rgba(0, 0, 0, 0.25);
-          box-shadow: 0px 4px 13px rgba(0, 0, 0, 0.25);
+  box-shadow: 0px 4px 13px rgba(0, 0, 0, 0.25);
   display: grid;
   place-items: center;
 }
@@ -8175,8 +7504,7 @@ area {
 }
 .global-session {
   background: linear-gradient(99.36deg, #401C1C -10.42%, #00C1DB 105.7%);
-  -webkit-box-shadow: 6px 21px 60px 2px rgba(0, 0, 0, 0.17);
-          box-shadow: 6px 21px 60px 2px rgba(0, 0, 0, 0.17);
+  box-shadow: 6px 21px 60px 2px rgba(0, 0, 0, 0.17);
   border-radius: 17px;
   display: grid;
   place-content: center;
@@ -8349,8 +7677,7 @@ area {
   height: 100%;
   background-repeat: no-repeat;
   background-position: center;
-  -webkit-animation: blink 2s linear infinite;
-          animation: blink 2s linear infinite;
+  animation: blink 2s linear infinite;
 }
 .animate-bg::after {
   content: "";
@@ -8363,39 +7690,18 @@ area {
   left: 0;
 }
 
-@-webkit-keyframes blink {
-  0% {
-    opacity: 0;
-    -webkit-filter: drop-shadow(-31px 5px 50px rgba(255, 212, 255, 0.7294117647));
-            filter: drop-shadow(-31px 5px 50px rgba(255, 212, 255, 0.7294117647));
-  }
-  50% {
-    opacity: 0.7;
-    -webkit-filter: drop-shadow(-31px 5px 50px rgba(255, 212, 255, 0.7294117647));
-            filter: drop-shadow(-31px 5px 50px rgba(255, 212, 255, 0.7294117647));
-  }
-  100% {
-    opacity: 1;
-    -webkit-filter: drop-shadow(-31px 50px 50px rgba(255, 212, 255, 0.7294117647));
-            filter: drop-shadow(-31px 50px 50px rgba(255, 212, 255, 0.7294117647));
-  }
-}
-
 @keyframes blink {
   0% {
     opacity: 0;
-    -webkit-filter: drop-shadow(-31px 5px 50px rgba(255, 212, 255, 0.7294117647));
-            filter: drop-shadow(-31px 5px 50px rgba(255, 212, 255, 0.7294117647));
+    filter: drop-shadow(-31px 5px 50px rgba(255, 212, 255, 0.7294117647));
   }
   50% {
     opacity: 0.7;
-    -webkit-filter: drop-shadow(-31px 5px 50px rgba(255, 212, 255, 0.7294117647));
-            filter: drop-shadow(-31px 5px 50px rgba(255, 212, 255, 0.7294117647));
+    filter: drop-shadow(-31px 5px 50px rgba(255, 212, 255, 0.7294117647));
   }
   100% {
     opacity: 1;
-    -webkit-filter: drop-shadow(-31px 50px 50px rgba(255, 212, 255, 0.7294117647));
-            filter: drop-shadow(-31px 50px 50px rgba(255, 212, 255, 0.7294117647));
+    filter: drop-shadow(-31px 50px 50px rgba(255, 212, 255, 0.7294117647));
   }
 }
 .animate-outer {
@@ -8409,8 +7715,7 @@ area {
   height: 100%;
   position: absolute;
   background-repeat: no-repeat;
-  -webkit-animation: rotating 7s linear infinite;
-          animation: rotating 7s linear infinite;
+  animation: rotating 7s linear infinite;
   left: 0;
   right: 0;
   margin: auto;
@@ -8424,36 +7729,21 @@ area {
   height: 35%;
   position: absolute;
   background-repeat: no-repeat;
-  -webkit-animation: rotating 7s linear infinite;
-          animation: rotating 7s linear infinite;
+  animation: rotating 7s linear infinite;
   left: 0;
   right: 0;
   margin: auto;
   top: 0;
   bottom: 0;
-  -webkit-animation-delay: 2s;
-          animation-delay: 2s;
+  animation-delay: 2s;
   z-index: 99;
-}
-
-@-webkit-keyframes rotating {
-  from {
-    -webkit-transform: rotate(0deg);
-    transform: rotate(0deg);
-  }
-  to {
-    -webkit-transform: rotate(360deg);
-    transform: rotate(360deg);
-  }
 }
 
 @keyframes rotating {
   from {
-    -webkit-transform: rotate(0deg);
     transform: rotate(0deg);
   }
   to {
-    -webkit-transform: rotate(360deg);
     transform: rotate(360deg);
   }
 }
@@ -8467,8 +7757,7 @@ area {
   width: 8%;
   height: 80%;
   background-repeat: no-repeat;
-  -webkit-animation: rotating 7s linear infinite;
-          animation: rotating 7s linear infinite;
+  animation: rotating 7s linear infinite;
   left: 0;
   right: 0;
   margin: auto;
@@ -8482,15 +7771,13 @@ area {
   width: 20%;
   height: 80%;
   background-repeat: no-repeat;
-  -webkit-animation: rotating 7s linear infinite;
-          animation: rotating 7s linear infinite;
+  animation: rotating 7s linear infinite;
   left: 0;
   right: 0;
   margin: auto;
   top: 0;
   bottom: 0;
-  -webkit-animation-delay: 2s;
-          animation-delay: 2s;
+  animation-delay: 2s;
   z-index: 99;
 }
 
@@ -8520,8 +7807,7 @@ area {
   background-size: contain;
   right: 0;
   top: -83px;
-  -webkit-animation: rotating 7s linear infinite;
-          animation: rotating 7s linear infinite;
+  animation: rotating 7s linear infinite;
 }
 .tammina-session .tammina-session-align {
   position: relative;
@@ -8530,8 +7816,7 @@ area {
 .tammina-session .design-card-support {
   height: 150px;
   background: linear-gradient(96.21deg, #F0962C 22.34%, #25C0CA 73.25%);
-  -webkit-box-shadow: 0px 4px 33px rgba(0, 0, 0, 0.44);
-          box-shadow: 0px 4px 33px rgba(0, 0, 0, 0.44);
+  box-shadow: 0px 4px 33px rgba(0, 0, 0, 0.44);
   border-radius: 33px;
   display: grid;
   text-align: center;
@@ -8574,8 +7859,7 @@ area {
   background-repeat: no-repeat;
   top: -150px;
   right: 0;
-  -webkit-animation: running-in 15s linear infinite;
-          animation: running-in 15s linear infinite;
+  animation: running-in 15s linear infinite;
 }
 .tammina-session .tammina-text {
   position: relative;
@@ -8589,8 +7873,7 @@ area {
   bottom: 0;
   background-repeat: no-repeat;
   left: -44px;
-  -webkit-animation: running-in 15s linear infinite;
-          animation: running-in 15s linear infinite;
+  animation: running-in 15s linear infinite;
 }
 
 .mid-text {
@@ -8628,8 +7911,7 @@ area {
   background-repeat: no-repeat;
   background-size: contain;
   background-position: center;
-  -webkit-animation: rotating 15s linear infinite;
-          animation: rotating 15s linear infinite;
+  animation: rotating 15s linear infinite;
 }
 
 .key-features-section {
@@ -8642,11 +7924,7 @@ area {
   background-repeat: no-repeat;
   background-position-y: center;
   left: 0;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  display: -webkit-box;
-  display: -ms-flexbox;
+  align-items: center;
   display: flex;
   position: relative;
 }
@@ -8661,8 +7939,7 @@ area {
   top: -20px;
   left: 0;
   right: 0;
-  -webkit-animation: rotating 15s linear infinite;
-          animation: rotating 15s linear infinite;
+  animation: rotating 15s linear infinite;
 }
 .key-features-section::after {
   content: "";
@@ -8675,8 +7952,7 @@ area {
   left: 84px;
   right: 0;
   bottom: -13px;
-  -webkit-animation: rotating 15s linear infinite;
-          animation: rotating 15s linear infinite;
+  animation: rotating 15s linear infinite;
 }
 .key-features-section img {
   z-index: 9;
@@ -8697,8 +7973,7 @@ area {
   margin: auto;
   bottom: 0;
   background-position: right;
-  -webkit-animation: rotating 15s linear infinite;
-          animation: rotating 15s linear infinite;
+  animation: rotating 15s linear infinite;
 }
 @media (max-width: 991px) {
   .key-features-section .features-text::after {
@@ -8717,8 +7992,7 @@ area {
   margin: auto;
   bottom: 0;
   background-position: bottom;
-  -webkit-animation: rotating 15s linear infinite;
-          animation: rotating 15s linear infinite;
+  animation: rotating 15s linear infinite;
 }
 @media (max-width: 991px) {
   .key-features-section .features-text::before {
@@ -8748,7 +8022,7 @@ area {
   left: 10%;
   top: -53px;
 }
-@media (max-width: 1199px) {
+@media (max-width: 767px) {
   .ellipse-laptop {
     display: none;
   }
@@ -8766,8 +8040,96 @@ area {
   bottom: -21%;
   right: 39%;
 }
+@media (min-width: 768px) and (max-width: 991px) {
+  .ellipse-laptop .img-2 {
+    bottom: 39%;
+  }
+}
 .ellipse-laptop .img-3 {
   width: 42%;
   left: 11%;
   top: 13%;
+}
+
+.polygon-circle {
+  position: relative;
+}
+.polygon-circle img {
+  position: absolute;
+  bottom: 15rem;
+  right: -3rem;
+}
+@media (max-width: 767px) {
+  .polygon-circle {
+    display: none;
+  }
+}
+.polygon-circle .rotate {
+  animation: rotation 2s infinite linear;
+}
+@keyframes rotation {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.pulser {
+  width: 60px;
+  position: absolute;
+  bottom: -68rem;
+  border-radius: 50%;
+}
+@media (min-width: 768px) and (max-width: 1199px) {
+  .pulser {
+    bottom: -97rem;
+  }
+}
+@media (max-width: 767px) {
+  .pulser {
+    display: none;
+  }
+}
+
+.pulser::after {
+  animation: pulse 1000ms cubic-bezier(0.9, 0.7, 0.5, 0.9) infinite;
+}
+
+@keyframes pulse {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    transform: scale(1.4);
+    opacity: 0.4;
+  }
+}
+.pulser::after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background: gold;
+  border-radius: 50%;
+}
+
+.white-circle {
+  position: absolute;
+  top: 188rem;
+  left: 70rem;
+}
+@media (max-width: 767px) {
+  .white-circle {
+    display: none;
+  }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+  .white-circle {
+    top: 247rem;
+    left: 48rem;
+  }
 }/*# sourceMappingURL=style.css.map */
