@@ -7238,15 +7238,46 @@ left: -40px;
             }
         }
        .first-section-image{
-        background-image: url('../TBMS/Mockup-Home.svg');
-    width: 68%;
-    height: 80%;
-    position: absolute;
-    background-repeat: no-repeat;
-    background-position: right;
-   right: 7em;
-    background-size: contain;
-
+        width: 48vw;
+        height: 80%;
+        background-repeat: no-repeat;
+        background-position: right;
+        left: -3em;
+        background-size: contain;
+        position: absolute;
+        bottom: 27rem;
+        @media (min-width:768px) and (max-width:991px){
+         bottom: 16rem;
+        }
+        @media (max-width:767px){
+            display: none;
+        }
+       }
+       .img-1{
+        animation: rotated360 9s infinite linear;
+        position: absolute;
+        left: 24px;
+        top: 7rem;
+        width: 8vw;
+        @media (min-width:768px) and (max-width:991px){
+            left: -32px;
+            top: 4rem;
+        }
+       }
+       .img-2{
+        position: absolute;
+        left: -11rem;
+       }
+       .img-3{
+        animation: rotated360 9s infinite linear;
+        position: absolute;
+        top: 32rem;
+        left: 40rem;
+        width: 6%;
+        @media (min-width:768px) and (max-width:991px){
+            left: 16rem;
+            top: 176px;
+        }
        }
     }
         .first-section_content{
@@ -8481,6 +8512,7 @@ font-weight: bold;
         width: 59%;
     }
     .img-2{
+        animation: rotated360 9s infinite linear;
         width: 64%;
         bottom: -21%;
         right: 39%;
@@ -8505,7 +8537,7 @@ font-weight: bold;
         display: none;
     }
     .rotate {
-        animation: rotation 2s infinite linear;
+        animation: rotated360 9s infinite linear;
       }
       @keyframes rotation {
         from {
@@ -8519,7 +8551,7 @@ font-weight: bold;
 .pulser {
     width: 60px;
     position: absolute;
-    bottom: -68rem;
+    bottom: -64rem;
     @media (min-width:768px) and (max-width:1199px) {
         bottom: -97rem;
     }
@@ -8555,13 +8587,13 @@ font-weight: bold;
   }
   .white-circle{
     position: absolute;
-    top: 188rem;
+    top: 179rem;
     left: 70rem;
     @media (max-width:767px){
         display: none;
     }
     @media (min-width:768px) and (max-width:991px){
-        top: 247rem;
+        top: 241rem;
         left: 48rem;
     }
   }
