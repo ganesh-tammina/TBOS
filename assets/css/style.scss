@@ -7208,11 +7208,18 @@ left: -40px;
     background-size: cover;
     background-repeat: no-repeat;
     background-position: bottom;
+    @media only screen and (min-width: 768px) and (max-width: 991px){
+        height: 323vh;
+    }
     @media(min-width:992px){
-        height: 160vh;
+        height: 245vh;
+    }
+    @media (max-width:767px){
+        background-color: #19917c;
+
     }
     .first-row{
-        height: 90vh;
+        height: 100vh;
         align-items: center;
         @media(min-width:1350px){
             height: 85vh;
@@ -7239,13 +7246,16 @@ left: -40px;
         }
        .first-section-image{
         background-image: url('../TBMS/Mockup-Home.svg');
-    width: 68%;
-    height: 80%;
-    position: absolute;
-    background-repeat: no-repeat;
-    background-position: right;
-   right: 7em;
-    background-size: contain;
+        width: 68%;
+        height: 80%;
+        position: absolute;
+        background-repeat: no-repeat;
+        background-position: right;
+        right: -30px;
+        background-size: contain;
+        @media (max-width:767px){
+            display: none !important;
+        }
 
        }
     }
@@ -7330,10 +7340,13 @@ left: -40px;
         width: 100%;
         display: grid;
         place-content: center;
-        height: 100vh;
+        height: 170vh;
         background-position: top;
         position: relative;
         margin-bottom: 10rem;
+        @media (min-width:320px) and (max-width:480px){
+            height: 250vh;
+        }
         .methodology-session-text{
             font-weight: 500;
             font-size: 30px;
@@ -7364,8 +7377,9 @@ left: -40px;
             border-color: yellow;
             border-radius: 3rem;
             padding: 2rem;
-            margin: 3rem 0 3rem 0;
+            margin: 3rem 0 3rem -5px;
             width: 48%;
+            position: relative;
             @media(max-width:991px){
                 width: 100%;
             }
@@ -7425,13 +7439,32 @@ left: -40px;
                     right: -6px;
                 }
             }
+            &::after{
+                content:'';
+                background-image: url("/assets/TBMS/white-circle.svg");
+                position: absolute;
+                width: 50px;
+                height: 50px;
+                background-size: contain;
+                right: 50px;
+                bottom: -30px;
+            }
+            &::before{
+                content: '';
+                position: absolute;
+                background-image: url("../img/traiFrame.svg");
+                width: 50px;
+                height: 50px;
+                left: -55px;
+                top: 12rem;
+            }
         }
         .second-text{
             border-style: dotted ;
             border-color: yellow;
             border-radius: 3rem;
             padding: 2rem;
-            margin: 3rem 0 3rem 0;
+            margin: 3rem 0 3rem -5px;
             width: 48%;
             position: relative;
             margin-right: auto;
@@ -7467,6 +7500,10 @@ left: -40px;
                 margin: auto;
                 color: yellow;
                 font-size: 18px;
+                font-weight: 600;
+                @media (min-width:320px) and (max-width:480px){
+                    font-size: 15px;
+                }
                 &::after{
                     content: '';
                     width: 0; 
@@ -7475,9 +7512,10 @@ left: -40px;
                     border-right: 15px solid transparent;
                     border-top: 15px solid yellow;
                     position: absolute;
-                    left: -11px;
+                    left: -10px;
                     background-size: contain;
-                    transform: rotate(-91deg);
+                    transform: rotate(-90deg);
+                    top: 9px;
                 }
                 &::before{
                     content: '';
@@ -7544,6 +7582,7 @@ left: -40px;
         background-repeat: no-repeat;
         background-position: bottom;
         background-size: contain;
+        margin-top: 5rem;
     }
 
     .second-session-text{
@@ -7935,6 +7974,10 @@ left: -40px;
 .card-align-left{
     // margin-right: 3rem;
     margin-left: auto;
+    @media (max-width:991px){
+    margin-top: 10px;
+
+    }
     @media(min-width: 992px){
         position: relative;
         left: 22px;
@@ -8273,12 +8316,22 @@ position: relative;
         top:8rem
     }
     .design-card-support{
-        height: 150px;
+        height: auto;
         background: linear-gradient(96.21deg, #F0962C 22.34%, #25C0CA 73.25%);
 box-shadow: 0px 4px 33px rgba(0, 0, 0, 0.44);
 border-radius: 33px;
+h2{
+    font-family: 'Racing Sans One';
+        font-weight: normal;
+        font-style: normal;
+        text-transform: capitalize;
+        font-weight: 400;
+font-size: 35px;
+line-height: 44px;
+}
 @media(max-width:991px){
-    height: 230px;
+    height: auto;
+    padding: 10px 0;
 }
     display: grid;
     text-align: center;
@@ -8432,6 +8485,11 @@ font-weight: bold;
     }
 }
 
+.part1{
+    .serviceline{
+        margin-bottom: 80px;
+    }
+}
 .serviceline {
     z-index: 1;
     position: relative;
@@ -8440,7 +8498,9 @@ font-weight: bold;
     background-size: contain;
     background-position: center;
     padding: 10px;
-    margin-bottom: 80px;
+    @media(max-width:767px){
+        margin-bottom: 80px;
+    }
 
     &::before {
         content: "";
@@ -8459,7 +8519,7 @@ font-weight: bold;
         background-position: center;
         border: 2px solid #2DB83B;
         z-index: 9;
-        // filter: drop-shadow(2px 15px 6px #ffff);
+        filter: drop-shadow(1px 8px 0px #ffff);
         @media (max-width: 768px){
             width: 70px;
             height: 70px;
@@ -8534,6 +8594,11 @@ font-weight: bold;
     position: absolute;
     right: -8%;
     top: 0;
+    &::before{
+        content: '';
+        position: absolute;
+        background-image: url("assets/img/traiFrame.svg");
+    }
     @media (max-width:767px){
         display: none;
     }
@@ -8543,14 +8608,14 @@ font-weight: bold;
     .img-1{
         left: 0;
         top: 0;
-        width: 40%;
+        width: 40%; 
     }
     .img-2{
         width: 60%;
-    bottom: 01;
-    right: 50%;
-    z-index: -1;
-    top: -16px;
+        bottom: 01;
+        right: 50%;
+        z-index: -1;
+        top: -16px;
     }
     .img-3{
         width: 30%;
@@ -8583,9 +8648,14 @@ font-weight: bold;
     width: 60px;
     position: absolute;
     border-radius: 50%;
-    bottom: calc(100vh - 9vh);
+    bottom: calc(100vh - -55vh);
     @media (max-width:767px){
        display: none;
+    }
+    &::before{
+        content: '';
+        position: absolute;
+        background-image: url('../TBMS/white-circle.svg');
     }
   }
   
@@ -8614,14 +8684,88 @@ font-weight: bold;
     border-radius: 50%;
   }
   .white-circle{
-    position: absolute;
-    top: 188rem;
-    left: 70rem;
-    @media (max-width:767px){
-        display: none;
+    img{
+    &::after{
+        content: '';
+        // position: absolute;
+        background-image: url('../TBMS/white-circle.svg');
     }
-    @media (min-width:768px) and (max-width:991px){
-        top: 247rem;
-        left: 48rem;
-    }
+}
   }
+.abcd{
+    position: relative;
+    top: calc(100% - 73%);
+    @media (max-width:767px){
+        top: 0;
+    }
+}
+.abcde{
+    @media (max-width:767px){
+        background-color: #fff;
+        margin-top: 17px;
+    }
+}
+.value-card{
+    background-image: url('../TAMS\ imgs/shape-tams.svg');
+    height: auto;
+    background-size: cover;
+    align-items: center;
+    width: 100%;
+    padding: 50px 0;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-repeat: no-repeat;
+    .global-text{
+        font-weight: 700;
+font-size: 30px;
+line-height: 45px;
+color: #494949;
+// margin-top: 2em;
+    }
+    .global-value{
+        .global-value-one{
+            background: linear-gradient(90.9deg, #C64EFF -1.61%, #36C994 44.65%, #FF00B8 84.9%);
+                -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    font-weight: bold;
+        }
+        .global-value-two{
+font-weight: 300;
+        }
+    }
+    .global-increase{
+        font-weight: 400;
+        .global-value-two{
+            background: linear-gradient(90.9deg, #FF0EBB 100%, #0064FB 48.63%, #5539FF 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    font-weight: bold;
+        }
+    }
+    .global-value-three{
+        background: linear-gradient(91.64deg, #CB1E48 -5.82%, #6791FC 42.15%);
+        -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    font-weight: bold;
+    }
+}
+.ellipse-imgs{
+    position: relative;
+    &::before{
+        content: '';
+        position: absolute;
+        background-image: url("../img/traiFrame.svg");
+        width: 50px;
+        height: 50px;
+        top: 10rem;
+        left: -58px;
+    }
+}
+.part10{
+    @media (min-width: 768px){
+        padding: 50px;
+    }
+}
