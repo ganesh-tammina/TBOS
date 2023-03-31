@@ -8513,7 +8513,7 @@ font-weight: bold;
         right: 0;
         margin: auto;
         top: -59px;
-        background-image: url(../img/Vector.svg);
+        // background-image: url(../img/Vector.svg);
         background-size: 55px 125px;
         background-repeat: no-repeat;
         background-position: center;
@@ -8525,6 +8525,20 @@ font-weight: bold;
             height: 70px;
             background-size: 35px;
             top: -50px;
+        }
+    }
+    .icon-1{
+        position: absolute;
+        display: grid;
+        left: 0;
+        right: 0;
+        top: -46px;
+        place-content: center;
+        z-index: 999;
+        margin: auto;
+        img{
+            width: 80%;
+            margin: auto;
         }
     }
 }
