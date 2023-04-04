@@ -8418,6 +8418,34 @@ area {
   }
 }
 
+.first-section .first-row::before {
+  content: "";
+  position: absolute;
+  background-image: url("../img/settings.svg");
+  width: 155px;
+  height: 150px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  left: 55rem;
+  top: 17rem;
+  -webkit-animation: rotated360 9s infinite linear;
+          animation: rotated360 9s infinite linear;
+}
+
+.first-section .first-row::after {
+  content: "";
+  position: absolute;
+  background-image: url("../img/smallsetting.svg");
+  background-repeat: no-repeat;
+  width: 100px;
+  height: 100px;
+  right: 0;
+  top: 40rem;
+  -webkit-animation: rotated360 9s infinite linear;
+          animation: rotated360 9s infinite linear;
+}
+
 .first-section .first-section-content {
   height: 100%;
   display: -ms-grid;
@@ -8445,8 +8473,7 @@ area {
 }
 
 .first-section .first-section-content .first-section-image {
-  background-image: url("../TBMS/Mockup-Home.svg");
-  width: 68%;
+  width: 60%;
   height: 80%;
   position: absolute;
   background-repeat: no-repeat;
