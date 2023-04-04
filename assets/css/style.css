@@ -9969,15 +9969,33 @@ area {
   display: grid;
   left: 0;
   right: 0;
-  top: -37px;
+  top: -36px;
   place-content: center;
   z-index: 999;
   margin: auto;
 }
 
+@media (min-width: 992px) {
+  .serviceline .icon-1 {
+    top: -44px;
+  }
+}
+
+@media (max-width: 767px) {
+  .serviceline .icon-1 {
+    top: -38px;
+  }
+}
+
 .serviceline .icon-1 img {
   width: 65%;
   margin: auto;
+}
+
+@media (min-width: 992px) {
+  .serviceline .icon-1 img {
+    width: 75%;
+  }
 }
 
 .serviceimg {

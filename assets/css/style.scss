@@ -8520,6 +8520,9 @@ font-weight: bold;
         border: 2px solid #2DB83B;
         z-index: 9;
         filter: drop-shadow(1px 8px 0px #ffff);
+        @media (min-width: 992px){
+
+        }
         @media (max-width: 768px){
             width: 90px;
             height: 90px;
@@ -8532,13 +8535,22 @@ font-weight: bold;
         display: grid;
         left: 0;
         right: 0;
-        top: -37px;
+        top: -36px;
         place-content: center;
         z-index: 999;
         margin: auto;
+        @media (min-width: 992px){
+            top: -44px;   
+        }
+        @media (max-width: 767px){
+            top: -38px;
+        }
         img{
             width: 65%;
             margin: auto;
+            @media (min-width: 992px){
+                width: 75%;
+            }
         }
     }
 }
