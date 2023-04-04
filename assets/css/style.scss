@@ -8521,8 +8521,8 @@ font-weight: bold;
         z-index: 9;
         filter: drop-shadow(1px 8px 0px #ffff);
         @media (max-width: 768px){
-            width: 70px;
-            height: 70px;
+            width: 90px;
+            height: 90px;
             background-size: 35px;
             top: -50px;
         }
@@ -8532,12 +8532,12 @@ font-weight: bold;
         display: grid;
         left: 0;
         right: 0;
-        top: -46px;
+        top: -37px;
         place-content: center;
         z-index: 999;
         margin: auto;
         img{
-            width: 80%;
+            width: 65%;
             margin: auto;
         }
     }
