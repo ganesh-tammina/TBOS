@@ -8418,6 +8418,47 @@ area {
   }
 }
 
+.first-section .first-row .laptop-view div {
+  background: 50% 100%/50% 50% no-repeat radial-gradient(ellipse at bottom, #fff, transparent, transparent);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  font-size: 10vw;
+  font-family: "Source Sans Pro", sans-serif;
+  -webkit-animation: reveal 3000ms ease-in-out forwards 200ms, glow 2500ms linear infinite 2000ms;
+          animation: reveal 3000ms ease-in-out forwards 200ms, glow 2500ms linear infinite 2000ms;
+}
+
+@-webkit-keyframes reveal {
+  80% {
+    letter-spacing: 8px;
+  }
+  100% {
+    background-size: 300% 300%;
+  }
+}
+
+@keyframes reveal {
+  80% {
+    letter-spacing: 8px;
+  }
+  100% {
+    background-size: 300% 300%;
+  }
+}
+
+@-webkit-keyframes glow {
+  40% {
+    text-shadow: 0 0 8px #fff;
+  }
+}
+
+@keyframes glow {
+  40% {
+    text-shadow: 0 0 8px #fff;
+  }
+}
+
 .first-section .first-section-content {
   height: 100%;
   display: -ms-grid;
@@ -8511,6 +8552,22 @@ area {
   right: 60px;
   top: 30rem;
   z-index: 2;
+  -webkit-animation: spin 10s infinite linear;
+          animation: spin 10s infinite linear;
+}
+
+@-webkit-keyframes spin {
+  100% {
+    -webkit-transform: rotate(1turn);
+            transform: rotate(1turn);
+  }
+}
+
+@keyframes spin {
+  100% {
+    -webkit-transform: rotate(1turn);
+            transform: rotate(1turn);
+  }
 }
 
 @media (min-width: 768px) and (max-width: 991px) {
@@ -8733,13 +8790,106 @@ area {
 
 .methodology .First-text::after {
   content: '';
-  background-image: url("/assets/TBMS/white-circle.svg");
   position: absolute;
+  background: #fff;
   width: 50px;
   height: 50px;
+  -webkit-animation: corner 3s;
+          animation: corner 3s;
+  border-radius: 50%;
   background-size: contain;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+  -webkit-animation-timing-function: linear;
+          animation-timing-function: linear;
   right: 50px;
   bottom: -30px;
+}
+
+@-webkit-keyframes corner {
+  0% {
+    border-top-left-radius: 1% 50%;
+  }
+  12.5% {
+    border-top-left-radius: 50%;
+    border-top-right-radius: 50%;
+  }
+  25% {
+    border-top-right-radius: 1% 50%;
+  }
+  25.001% {
+    border-top-right-radius: 50% 1%;
+  }
+  37.5% {
+    border-top-right-radius: 50%;
+    border-bottom-right-radius: 50%;
+  }
+  50% {
+    border-bottom-right-radius: 50% 1%;
+  }
+  50.001% {
+    border-bottom-right-radius: 1% 50%;
+  }
+  62.5% {
+    border-bottom-right-radius: 50%;
+    border-bottom-left-radius: 50%;
+  }
+  75% {
+    border-bottom-left-radius: 1% 50%;
+  }
+  75.001% {
+    border-bottom-left-radius: 50% 1%;
+  }
+  87.5% {
+    border-bottom-left-radius: 50%;
+    border-top-left-radius: 50%;
+  }
+  100% {
+    border-top-left-radius: 50% 1%;
+  }
+}
+
+@keyframes corner {
+  0% {
+    border-top-left-radius: 1% 50%;
+  }
+  12.5% {
+    border-top-left-radius: 50%;
+    border-top-right-radius: 50%;
+  }
+  25% {
+    border-top-right-radius: 1% 50%;
+  }
+  25.001% {
+    border-top-right-radius: 50% 1%;
+  }
+  37.5% {
+    border-top-right-radius: 50%;
+    border-bottom-right-radius: 50%;
+  }
+  50% {
+    border-bottom-right-radius: 50% 1%;
+  }
+  50.001% {
+    border-bottom-right-radius: 1% 50%;
+  }
+  62.5% {
+    border-bottom-right-radius: 50%;
+    border-bottom-left-radius: 50%;
+  }
+  75% {
+    border-bottom-left-radius: 1% 50%;
+  }
+  75.001% {
+    border-bottom-left-radius: 50% 1%;
+  }
+  87.5% {
+    border-bottom-left-radius: 50%;
+    border-top-left-radius: 50%;
+  }
+  100% {
+    border-top-left-radius: 50% 1%;
+  }
 }
 
 .methodology .First-text::before {
@@ -8757,7 +8907,7 @@ area {
   border-color: yellow;
   border-radius: 3rem;
   padding: 2rem;
-  margin: 3rem 0 3rem -5px;
+  margin: 4rem 0 3rem -5px;
   width: 48%;
   position: relative;
   margin-right: auto;
@@ -10023,13 +10173,6 @@ area {
   z-index: 9;
 }
 
-@-webkit-keyframes spin {
-  100% {
-    -webkit-transform: rotate(1turn);
-            transform: rotate(1turn);
-  }
-}
-
 @keyframes spin {
   100% {
     -webkit-transform: rotate(1turn);
@@ -10265,8 +10408,8 @@ area {
 }
 
 .pulser::after {
-  -webkit-animation: pulse 9s cubic-bezier(0.9, 0.7, 0.5, 0.9) infinite;
-          animation: pulse 9s cubic-bezier(0.9, 0.7, 0.5, 0.9) infinite;
+  -webkit-animation: pulse 2s cubic-bezier(0.9, 0.7, 0.5, 0.9) infinite;
+          animation: pulse 2s cubic-bezier(0.9, 0.7, 0.5, 0.9) infinite;
 }
 
 @-webkit-keyframes pulse {

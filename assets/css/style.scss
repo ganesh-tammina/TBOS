@@ -7227,6 +7227,33 @@ left: -40px;
         @media(min-width:1550px){
             height: 65vh;
         }
+        .laptop-view{
+            div{
+                background: 50% 100% / 50% 50% no-repeat
+                radial-gradient(ellipse at bottom, #fff, transparent, transparent);
+                -webkit-background-clip: text;
+                background-clip: text;
+                color: transparent;
+                font-size: 10vw;
+                font-family: "Source Sans Pro", sans-serif;
+                animation: reveal 3000ms ease-in-out forwards 200ms,
+                            glow 2500ms linear infinite 2000ms;
+
+                @keyframes reveal {
+                80%{
+                    letter-spacing: 8px;
+                }
+                100% {
+                    background-size: 300% 300%;
+                }
+                }
+                @keyframes glow {
+                40% {
+                    text-shadow: 0 0 8px #fff;
+                }
+                }
+            }
+        }
     }
     .first-section-content{
         height: 100%;
@@ -7295,7 +7322,14 @@ left: -40px;
             right: 60px;
             top: 30rem;
             z-index: 2;
-            // animation: rotated360 9s infinite linear;
+            animation: spin 10s infinite linear;
+
+            @keyframes spin {
+                100% {
+                    transform: rotate(1turn);
+                }
+            }
+
             @media (min-width: 768px) and (max-width: 991px){
                 right: 35px;
                 top: 21rem;
@@ -7491,14 +7525,66 @@ left: -40px;
             }
             &::after{
                 content:'';
-                background-image: url("/assets/TBMS/white-circle.svg");
                 position: absolute;
+                background: #fff;
                 width: 50px;
                 height: 50px;
+                animation: corner 3s;
+                border-radius: 50%;
                 background-size: contain;
+                animation-iteration-count: infinite;
+                animation-timing-function: linear;
                 right: 50px;
                 bottom: -30px;
             }
+
+            $s: 100% / 8;
+            $t: 0.001%;
+
+            @keyframes corner {
+            #{$s * 0} {
+                border-top-left-radius: 1% 50%;
+            }
+            #{$s * 1} {
+                border-top-left-radius: 50%;
+                border-top-right-radius: 50%;
+            }
+            #{$s * 2} {
+                border-top-right-radius: 1% 50%;
+            }
+            #{$s * 2 + $t} {
+                border-top-right-radius: 50% 1%;
+            }
+            #{$s * 3} {
+                border-top-right-radius: 50%;
+                border-bottom-right-radius: 50%;
+            }
+            #{$s * 4} {
+                border-bottom-right-radius: 50% 1%;
+            }
+            #{$s * 4 + $t} {
+                border-bottom-right-radius: 1% 50%;
+            }
+            #{$s * 5} {
+                border-bottom-right-radius: 50%;
+                border-bottom-left-radius: 50%;
+            }
+            #{$s * 6} {
+                border-bottom-left-radius: 1% 50%;
+            }
+            #{$s * 6 + $t} {
+                border-bottom-left-radius: 50% 1%;
+            }
+            #{$s * 7} {
+                border-bottom-left-radius: 50%;
+                border-top-left-radius: 50%;
+            }
+            #{$s * 8} {
+                border-top-left-radius: 50% 1%;
+            }
+            }
+
+
             &::before{
                 content: '';
                 position: absolute;
@@ -7514,7 +7600,7 @@ left: -40px;
             border-color: yellow;
             border-radius: 3rem;
             padding: 2rem;
-            margin: 3rem 0 3rem -5px;
+            margin: 4rem 0 3rem -5px;
             width: 48%;
             position: relative;
             margin-right: auto;
@@ -8752,7 +8838,7 @@ font-weight: bold;
   }
   
   .pulser::after {
-    animation: pulse 9s cubic-bezier(0.9, 0.7, 0.5, 0.9) infinite;
+    animation: pulse 2s cubic-bezier(0.9, 0.7, 0.5, 0.9) infinite;
   }
   
   @keyframes pulse {
