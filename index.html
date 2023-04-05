@@ -659,7 +659,7 @@
                     </div>
                     <div class="col-lg-6 Connect-content">
                         <div>
-                            <button class="Connect-btn" data-bs-target="#exampleModalToggle" data-bs-toggle="modal">Connect</button>
+                            <button class="Connect-btn" data-target="#exampleModalCenter" data-toggle="modal">Connect</button>
                         </div>
                     </div>
 
@@ -668,27 +668,97 @@
 
         </div>
     </div>
-    <div class="modal" id="exampleModalToggle" aria-hidden="true" aria-labelledby="exampleModalToggleLabel" tabindex="-1">
-        <div class="modal-dialog modal-dialog-centered">
+
+    <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+        <div class="m-auto w-75" role="document">
+            <div class="modal-header1">
+                <button type="button" class="d-flex align-items-center justify-content-center" data-dismiss="modal" aria-label="Close">
+                  <span aria-hidden="true" class="ion-ios-close"></span>
+                </button>
+                <img class="w-100" src="./assets/img/Register.svg" alt="">
+                <span>Register</span>
+            </div>
           <div class="modal-content">
-            <div class="modal-header">
-              <!-- <h1 class="modal-title fs-5" id="exampleModalToggleLabel">Modal 1</h1> -->
-              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-            </div>
-            <div class="modal-body">
-                <script charset="utf-8" type="text/javascript" src="//js.hsforms.net/forms/embed/v2.js"></script>
-                <script charset="utf-8" type="text/javascript" src="//js.hsforms.net/forms/embed/v2.js"></script>
-                <script>
-                hbspt.forms.create({
-                    region: "na1",
-                    portalId: "8567207",
-                    formId: "d6fce867-e061-443e-b3fe-65538a9e698a"
-                });
-                </script>
-            </div>
-            <div class="modal-footer">
-              <button class="btn btn-primary" data-bs-target="#exampleModalToggle2" data-bs-toggle="modal">Close</button>
-            </div>
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="modal-body section-1 p-0">
+                       <div class="row align-items-center mb-5">
+                            <div class="col-4">
+                                <img src="assets/img/immediate response.svg" alt="">
+                            </div>
+                            <div class="col-8">
+                                <span>Centralized repository of employees</span>
+                            </div>
+                       </div>
+                       <div class="row align-items-center mb-5">
+                            <div class="col-4">
+                                <img src="assets/img/Reduce repeated issues.svg" alt="">
+                            </div>
+                            <div class="col-8">
+                                <span>Consolidate the timesheet</span>
+                            </div>
+                        </div>
+                        <div class="row align-items-center mb-5">
+                            <div class="col-4">
+                                <img src="assets/img/fast closure tickets.svg" alt="">
+                            </div>
+                            <div class="col-8">
+                                <span>Fast generation of invoices</span>
+                            </div>
+                        </div>
+                        <h4 class="text-center">Enable your effective timesheet management and fasten your invoice generation for better business!</h4>
+                    </div>
+                </div>
+                  <div class="col-md-2 divider"></div>
+                  <div class="col-md-6 card">
+                    <div class="modal-body p-0">
+                        <h3 class="text-center">Fasten the timesheet approval of your employees with our solution!</h3> 
+                        <form action="#" class="signup-form">
+                            <div class="row">
+                                <div class="form-group col-md-6 col-sm-12">
+                                    <label for="">FirstName*</label>
+                                    <input type="text" class="form-control">
+                                </div>
+                                <div class="form-group col-md-6 col-sm-12">
+                                    <label for="">LastName*</label>
+                                    <input type="text" class="form-control">
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-6 col-sm-12">
+                                    <div class="form-group">
+                                        <label for="">Email*</label>
+                                        <input type="email" class="form-control">
+                                    </div>
+                                </div>
+                                <div class="col-md-6 col-sm-12">
+                                    <div class="form-group">
+                                        <label for="">Phone Number*</label>
+                                        <input type="number" class="form-control">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="form-group col-12">
+                                    <label for="">Company Name*</label>
+                                    <input type="text" class="form-control">
+                                </div>
+                                <div class="form-group col-12">
+                                    <label for="">Job Title*</label>
+                                    <input type="text" class="form-control" >
+                                </div>
+                                <div class="form-group col-12">
+                                    <label for="">Country/Region*</label>
+                                    <input type="text" class="form-control">
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <button type="submit" class="form-control rounded submit px-3">Register</button>
+                            </div>
+                    </form>
+                    </div>
+                  </div>
+                </div>
           </div>
         </div>
       </div>
