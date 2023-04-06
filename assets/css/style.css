@@ -9978,10 +9978,11 @@ area {
   width: 215px;
   background-color: transparent;
   font-weight: 400;
-  font-size: 30px;
+  font-size: 25px;
   line-height: 45px;
   text-transform: capitalize;
   color: lavenderblush;
+  background-color: #0064FB;
   -webkit-text-stroke: #fff;
   -webkit-text-stroke-width: 1px;
   text-shadow: 2px 2px 10px blue;
@@ -10608,6 +10609,10 @@ area {
   height: 100%;
 }
 
+.modal-content .section-1 h5 {
+  width: 26rem;
+}
+
 .modal-content .section-1 span {
   background: linear-gradient(90.54deg, #4D7EDE -6.84%, #27AEE8 26.14%, #FF7EF2 64.31%);
   -webkit-background-clip: text;
@@ -10635,25 +10640,7 @@ area {
   color: #fff;
 }
 
-.modal-header1 {
-  position: relative;
-  top: 43px;
-  z-index: 1;
-}
-
-@media (min-width: 768px) and (max-width: 991px) {
-  .modal-header1 {
-    top: 34px;
-  }
-}
-
-@media (max-width: 767px) {
-  .modal-header1 {
-    display: none;
-  }
-}
-
-.modal-header1 button::before {
+.abcd button::before {
   content: "";
   position: absolute;
   background-image: url("../img/close.svg");
@@ -10663,9 +10650,27 @@ area {
   bottom: 0;
 }
 
-.modal-header1 span {
+.abcd .modal-header1 {
+  position: relative;
+  top: 43px;
+  z-index: 1;
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .abcd .modal-header1 {
+    top: 34px;
+  }
+}
+
+@media (max-width: 767px) {
+  .abcd .modal-header1 {
+    display: none;
+  }
+}
+
+.abcd .modal-header1 span {
   position: absolute;
-  top: 0;
+  top: 6px;
   left: 50%;
   font-size: x-large;
   color: #fff;
@@ -10675,8 +10680,14 @@ area {
 }
 
 @media (max-width: 767px) {
-  .modal-header1 span {
+  .abcd .modal-header1 span {
     color: #0049b1;
+  }
+}
+
+@media (min-width: 1200px) {
+  .abcd .modal-header1 span {
+    top: 18px;
   }
 }
 /*# sourceMappingURL=style.css.map */
