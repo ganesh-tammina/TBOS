@@ -363,9 +363,8 @@ Navbar Area
 }
 
 .navbar-light img {
-  max-width: 140px;
+  max-width: 160px;
   float: left;
-  padding: 10px 0;
 }
 
 .navbar-light .navbar-brand-sticky {
@@ -382,7 +381,6 @@ Navbar Area
   background-color: transparent;
   top: 0px;
   left: 0;
-  padding: 0;
   width: 100%;
   z-index: 999;
   height: auto;
@@ -6895,7 +6893,7 @@ Footer Area
 }
 
 .footer-bg2 {
-  background-image: url(../img/shape/footer-bg2.webp);
+  background: #282828 !important;
   background-position: center center;
   background-repeat: no-repeat;
   z-index: 1;
@@ -6990,7 +6988,7 @@ Footer Area
 
 .footer-widget h3 {
   font-size: 24px;
-  color: #2966be;
+  color: #fff;
   margin-bottom: 15px;
 }
 
@@ -7002,17 +7000,22 @@ Footer Area
 
 .footer-widget .footer-list li {
   display: block;
-  color: #6c6c6c;
+  color: #fff;
   margin-bottom: 5px;
 }
 
 .footer-widget .footer-list li a {
-  color: #6c6c6c;
+  color: #fff;
 }
 
 .footer-widget .footer-list li a:hover {
   color: #ff3900;
   letter-spacing: 0.15px;
+}
+
+.footer-widget .footer-list .icon-width {
+  width: 10px;
+  margin: 0 13px 0 10px;
 }
 
 .footer-widget p {
@@ -7101,69 +7104,93 @@ Footer Area
   color: red;
 }
 
-.copy-right-area {
-  position: relative;
+@media (min-width: 320px) and (max-width: 991px) {
+  .copy-right-area .copy-right-text {
+    text-align: center;
+  }
 }
 
-.copy-right-area::before {
-  content: '';
-  position: absolute;
-  z-index: -1;
-  top: 0;
-  left: 0;
-  right: 0;
-  width: 100%;
-  height: 100%;
-  background-color: #f0f0f0;
+@media (min-width: 320px) and (max-width: 991px) {
+  .copy-right-area .copy-right-list {
+    text-align: center;
+  }
 }
 
-.copy-right-area .copy-right-text p {
-  color: #2966be;
-  margin-bottom: 0;
+.footer-bottom {
+  background: #4a4f54 !important;
+  padding: 0 !important;
+  padding: 0 !important;
+  height: 65px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
 }
 
-.copy-right-area .copy-right-text p a {
-  color: #ff3900;
-  border-bottom: 1px solid #ff3900;
-}
-
-.copy-right-area .copy-right-text p a:hover {
-  color: #1a1b1e;
-  border-color: #1a1b1e;
-}
-
-.copy-right-list {
-  float: right;
-}
-
-.copy-right-list ul {
+.vc_tta-tabs-list {
   list-style: none;
-  margin: 0;
-  padding: 0;
 }
 
-.copy-right-list ul li {
-  display: inline-block;
-  margin-right: 15px;
+.vc_tta-tabs-list .flags {
+  max-width: 38px;
+  padding: 0px 4px;
+  -o-object-fit: cover;
+  object-fit: cover;
+  height: 50px;
+}
+
+.vc_tta-tabs-list .engflag {
+  height: 23px !important;
   position: relative;
+  top: 10px;
 }
 
-.copy-right-list ul li::before {
-  content: '';
-  position: absolute;
-  top: 8px;
-  right: -12px;
-  height: 14px;
-  width: 1px;
-  background-color: #2966be;
+.whats-app {
+  width: 40px;
+  height: 45px;
+  background: #3498db;
+  position: fixed;
+  top: 50%;
+  right: 0;
+  z-index: 9999;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 10px 5px;
+  font-weight: 700;
+  margin-left: 5px;
+  font-size: 16px;
 }
 
-.copy-right-list ul li:last-child::before {
-  display: none;
+.whats-app a {
+  visibility: hidden;
+  opacity: 0;
 }
 
-.copy-right-list ul li a {
-  color: #2966be;
+.whats-app.email-img {
+  background: #ea2e30;
+  top: 57%;
+}
+
+.whats-app:hover {
+  width: 220px;
+  -webkit-transition: all .25s ease;
+  transition: all .25s ease;
+}
+
+.whats-app:hover a {
+  visibility: visible;
+  margin-left: 10px;
+  color: #fff;
+  opacity: 1;
+  font-size: 14px;
+  font-weight: 700;
+  margin-left: 5px;
 }
 
 /*==================================
@@ -7482,14 +7509,12 @@ Back To Top Button
 }
 
 .top-btn {
-  background-image: -webkit-gradient(linear, left top, right top, from(#ff2500), to(#ff7100));
-  background-image: linear-gradient(to right, #ff2500, #ff7100);
+  background-image: -webkit-gradient(linear, left top, right top, from(#0d261a), to(#0d261a));
+  background-image: linear-gradient(to right, #0d261a, #0d261a);
   color: #ffffff;
   width: 45px;
   height: 45px;
   border-radius: 50%;
-  -webkit-box-shadow: 0 0 15px #ff3900;
-          box-shadow: 0 0 15px #ff3900;
   font-size: 20px;
   display: inline-block;
   text-align: center;
@@ -7499,8 +7524,6 @@ Back To Top Button
 }
 
 .top-btn:hover {
-  background-image: -webkit-gradient(linear, left top, right top, from(#070100e7), to(#070300bb));
-  background-image: linear-gradient(to right, #070100e7, #070300bb);
   -webkit-box-shadow: 0 0 15px #1a1b1e;
           box-shadow: 0 0 15px #1a1b1e;
   color: #fff;
@@ -7999,7 +8022,6 @@ Buy Now Btn
   border-radius: 10rem;
   color: #fff;
   text-transform: uppercase;
-  font-size: 1rem;
   letter-spacing: .15rem;
   -webkit-transition: all .3s;
   transition: all .3s;
@@ -8019,8 +8041,8 @@ Buy Now Btn
   left: 0;
   width: 0%;
   height: 100%;
-  background: -webkit-gradient(linear, left top, left bottom, from(#7BA6E2), to(#1256B6));
-  background: linear-gradient(#7BA6E2, #1256B6);
+  background: -webkit-gradient(linear, left top, left bottom, from(#67B26F), to(#4ca2cd));
+  background: linear-gradient(#67B26F, #4ca2cd);
   -webkit-transition: all .9s;
   transition: all .9s;
   border-radius: 10rem;
@@ -8415,47 +8437,6 @@ area {
 @media (min-width: 1550px) {
   .first-section .first-row {
     height: 65vh;
-  }
-}
-
-.first-section .first-row .laptop-view div {
-  background: 50% 100%/50% 50% no-repeat radial-gradient(ellipse at bottom, #fff, transparent, transparent);
-  -webkit-background-clip: text;
-  background-clip: text;
-  color: transparent;
-  font-size: 10vw;
-  font-family: "Source Sans Pro", sans-serif;
-  -webkit-animation: reveal 3000ms ease-in-out forwards 200ms, glow 2500ms linear infinite 2000ms;
-          animation: reveal 3000ms ease-in-out forwards 200ms, glow 2500ms linear infinite 2000ms;
-}
-
-@-webkit-keyframes reveal {
-  80% {
-    letter-spacing: 8px;
-  }
-  100% {
-    background-size: 300% 300%;
-  }
-}
-
-@keyframes reveal {
-  80% {
-    letter-spacing: 8px;
-  }
-  100% {
-    background-size: 300% 300%;
-  }
-}
-
-@-webkit-keyframes glow {
-  40% {
-    text-shadow: 0 0 8px #fff;
-  }
-}
-
-@keyframes glow {
-  40% {
-    text-shadow: 0 0 8px #fff;
   }
 }
 
