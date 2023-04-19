@@ -7147,6 +7147,22 @@ Footer Area
   top: 10px;
 }
 
+#Endland {
+  display: none;
+}
+
+#NotherLand {
+  display: none;
+}
+
+#india {
+  display: none;
+}
+
+#usa {
+  display: block;
+}
+
 .whats-app {
   width: 40px;
   height: 45px;
@@ -9892,7 +9908,7 @@ area {
   display: -ms-grid;
   display: grid;
   place-content: center;
-  padding: 50px 0px;
+  padding: 100px 0px;
 }
 
 .tammina-session .tammina-session-reports {
