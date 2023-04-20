@@ -757,7 +757,7 @@ Navbar Area
 
 .sticky-nav .nav-bar-two {
   top: 0;
-  background-color: #2966be;
+  background-color: #3498db;
   position: fixed;
   -webkit-box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
           box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
@@ -7121,10 +7121,22 @@ Footer Area
   color: red;
 }
 
+.copy-right-area .copy-right-text a {
+  text-decoration: none;
+  font-family: "Nunito Sans" !important;
+  font-size: 14px;
+}
+
 @media (min-width: 320px) and (max-width: 991px) {
   .copy-right-area .copy-right-text {
     text-align: center;
   }
+}
+
+.copy-right-area .copy-right-list a {
+  text-decoration: none;
+  font-family: "Nunito Sans" !important;
+  font-size: 14px;
 }
 
 @media (min-width: 320px) and (max-width: 991px) {
@@ -7203,6 +7215,7 @@ Footer Area
 .whats-app a {
   visibility: hidden;
   opacity: 0;
+  text-decoration: none !important;
 }
 
 .whats-app.email-img {
@@ -7545,8 +7558,8 @@ Back To Top Button
   background-image: -webkit-gradient(linear, left top, right top, from(#0d261a), to(#0d261a));
   background-image: linear-gradient(to right, #0d261a, #0d261a);
   color: #ffffff;
-  width: 45px;
-  height: 45px;
+  width: 40px;
+  height: 40px;
   border-radius: 50%;
   font-size: 20px;
   display: inline-block;
@@ -7554,6 +7567,12 @@ Back To Top Button
   line-height: 45px;
   -webkit-transition: .9s;
   transition: .9s;
+}
+
+.top-btn img {
+  width: 15px;
+  position: relative;
+  top: -5px;
 }
 
 .top-btn:hover {

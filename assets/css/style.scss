@@ -718,7 +718,7 @@ Navbar Area
     }
     .nav-bar-two {
         top: 0;
-        background-color: $color-blue;
+        background-color: #3498db;
         position: fixed;
         box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
         height: 90px;
@@ -6113,11 +6113,21 @@ Footer Area
 }
 .copy-right-area{
     .copy-right-text{
+        a{
+            text-decoration: none;
+            font-family: "Nunito Sans" !important;
+            font-size: 14px;
+        }
         @media (min-width: 320px) and (max-width: 991px){
             text-align: center;
         }
     }
     .copy-right-list{
+        a{
+            text-decoration: none;
+            font-family: "Nunito Sans" !important;
+            font-size: 14px;
+        }
         @media (min-width: 320px) and (max-width: 991px){
             text-align: center;
         }
@@ -6181,6 +6191,7 @@ Footer Area
     a{
       visibility: hidden;
       opacity: 0;
+      text-decoration: none !important;
     }
     &.email-img{
         background: #ea2e30;
@@ -6483,8 +6494,8 @@ Back To Top Button
 .top-btn {
     background-image: linear-gradient(to right,#0d261a,#0d261a);
     color: $color-white;
-    width: 45px;
-    height: 45px;
+    width: 40px;
+    height: 40px;
     border-radius: 50%;
     // box-shadow: 0 0 15px $main-color;
     font-size: 20px;
@@ -6492,6 +6503,11 @@ Back To Top Button
     text-align: center;
     line-height: 45px;
     transition: .9s;
+    img{
+        width: 15px;
+        position: relative;
+        top: -5px;
+    }
     &:hover{
         // background-image: linear-gradient(to right,#070100e7,#070300bb);
         box-shadow: 0 0 15px $color-black;
