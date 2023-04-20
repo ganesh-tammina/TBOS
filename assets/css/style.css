@@ -6990,9 +6990,11 @@ Footer Area
 }
 
 .footer-widget h3 {
-  font-size: 24px;
+  font-size: 17px;
   color: #fff;
   margin-bottom: 15px;
+  text-transform: uppercase;
+  font-weight: 600;
 }
 
 .footer-widget .footer-list {
@@ -7006,7 +7008,8 @@ Footer Area
   display: -ms-flexbox;
   display: flex;
   color: #fff;
-  margin-bottom: 5px;
+  line-height: 2;
+  font-size: 14px;
 }
 
 .footer-widget .footer-list li a {
