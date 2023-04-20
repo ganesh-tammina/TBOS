@@ -326,8 +326,8 @@ Navbar Area
 }
 .navbar-light {
     padding: 0;
-    padding-left: 0;
-    padding-right: 0;
+    padding-left: 0 !important;
+    padding-right: 0 !important;
     background-color: transparent;
         img{
             max-width: 160px;
@@ -352,7 +352,7 @@ Navbar Area
     background-color: transparent;
     top: 0px;
     left: 0;
-    // padding:  0;
+    padding:  10px;
     width: 100%;
     z-index: 999;
     height: auto;
@@ -720,7 +720,7 @@ Navbar Area
         background-color: $color-blue;
         position: fixed;
         box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
-        height: 70px;
+        height: 90px;
         display: grid;
         place-items: center;
         .switch-box{
@@ -5920,6 +5920,7 @@ Footer Area
     background-size: cover;
     background-repeat: no-repeat;
     z-index: 1;
+    line-height: 1 !important;
 }
 .footer-bg2 {
     // background-image: url(../img/shape/footer-bg2.webp);
@@ -5994,6 +5995,7 @@ Footer Area
 }
 .footer-widget {
     margin-bottom: 30px;
+    line-height: 1.5;
     h3 {
         font-size: 24px;
         color: #fff;
@@ -6004,7 +6006,7 @@ Footer Area
         margin: 0;
         padding: 0;
         li {
-            display: block;
+            display: flex;
             color: #fff;
             margin-bottom: 5px;
             a {

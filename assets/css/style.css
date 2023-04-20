@@ -357,8 +357,8 @@ Navbar Area
 
 .navbar-light {
   padding: 0;
-  padding-left: 0;
-  padding-right: 0;
+  padding-left: 0 !important;
+  padding-right: 0 !important;
   background-color: transparent;
 }
 
@@ -381,6 +381,7 @@ Navbar Area
   background-color: transparent;
   top: 0px;
   left: 0;
+  padding: 10px;
   width: 100%;
   z-index: 999;
   height: auto;
@@ -760,7 +761,7 @@ Navbar Area
   position: fixed;
   -webkit-box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
           box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
-  height: 70px;
+  height: 90px;
   display: -ms-grid;
   display: grid;
   place-items: center;
@@ -6890,6 +6891,7 @@ Footer Area
   background-size: cover;
   background-repeat: no-repeat;
   z-index: 1;
+  line-height: 1 !important;
 }
 
 .footer-bg2 {
@@ -6984,6 +6986,7 @@ Footer Area
 
 .footer-widget {
   margin-bottom: 30px;
+  line-height: 1.5;
 }
 
 .footer-widget h3 {
@@ -6999,7 +7002,9 @@ Footer Area
 }
 
 .footer-widget .footer-list li {
-  display: block;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
   color: #fff;
   margin-bottom: 5px;
 }
