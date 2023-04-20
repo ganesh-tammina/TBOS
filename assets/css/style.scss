@@ -404,12 +404,13 @@ Navbar Area
                         }
                         a {
                             text-transform: capitalize;
-                            color: $color-black !important;
+                            color: #202020 !important;
                             position: relative;
                             transition: 0.7s;
                             // font-weight: 600;
                             font-family: Roboto,sans-serif!important;
-                            padding: 10px;
+                            padding: 9px 20px;
+                            font-size: 14px !important;
                             border-bottom: 1px dashed #ebebeb;
                             &.active{
                                 border-radius: .25rem; 

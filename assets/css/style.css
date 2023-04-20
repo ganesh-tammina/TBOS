@@ -444,12 +444,13 @@ Navbar Area
 
 .main-nav nav .navbar-nav .nav-item .dropdown-menu li a {
   text-transform: capitalize;
-  color: #1a1b1e !important;
+  color: #202020 !important;
   position: relative;
   -webkit-transition: 0.7s;
   transition: 0.7s;
   font-family: Roboto, sans-serif !important;
-  padding: 10px;
+  padding: 9px 20px;
+  font-size: 14px !important;
   border-bottom: 1px dashed #ebebeb;
 }
 
