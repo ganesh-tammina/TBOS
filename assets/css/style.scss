@@ -407,7 +407,8 @@ Navbar Area
                             color: $color-black !important;
                             position: relative;
                             transition: 0.7s;
-                            font-weight: 600;
+                            // font-weight: 600;
+                            font-family: Roboto,sans-serif!important;
                             padding: 10px;
                             border-bottom: 1px dashed #ebebeb;
                             &.active{
