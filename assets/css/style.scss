@@ -5928,6 +5928,7 @@ Footer Area
     background: #282828!important;
     background-position: center center;
     background-repeat: no-repeat;
+    font-family: Roboto,sans-serif!important;
     z-index: 1;
 }
 .footer-top {
@@ -6020,6 +6021,7 @@ Footer Area
                 &:hover {
                     color: $main-color;
                     letter-spacing: 0.15px;
+                    text-decoration: none;
                 }
             }
         }

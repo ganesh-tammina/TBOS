@@ -6898,6 +6898,7 @@ Footer Area
   background: #282828 !important;
   background-position: center center;
   background-repeat: no-repeat;
+  font-family: Roboto, sans-serif !important;
   z-index: 1;
 }
 
@@ -7019,6 +7020,7 @@ Footer Area
 .footer-widget .footer-list li a:hover {
   color: #ff3900;
   letter-spacing: 0.15px;
+  text-decoration: none;
 }
 
 .footer-widget .footer-list .icon-width {
