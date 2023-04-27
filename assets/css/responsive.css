@@ -45,29 +45,70 @@
   .section-title p {
     padding-top: 10px;
   }
+  /* Default CSS End */
+  /* Navbar CSS */
+  /* Navbar CSS End */
+  /* Main Banner CSS */
+  /* Main Banner CSS End */
+  /* Inner Banner CSS */
+  /* Inner Banner CSS End */
+  /* Brand Area CSS */
+  /* Brand Area CSS End */
+  /* About Area CSS */
+  /* About Area CSS End */
+  /* Counter Area CSS */
+  /* Counter Area CSS End */
+  /* Seo Area CSS */
+  /* Seo Area CSS End */
+  /* Service Area CSS */
+  /* Service Area CSS End */
+  /* Service Details Area CSS */
+  /* Service Details Area CSS End */
+  /* History Area CSS */
+  /* History Area CSS End */
+  /* Courses Area CSS */
+  /* Courses Area CSS End */
+  /* Work Area CSS */
+  /* Work Area CSS End */
+  /* Mission Area CSS */
+  /* Mission Area CSS End */
+  /* Pricing Area CSS */
+  /* Pricing Area CSS End */
+  /* Team Area CSS */
+  /* Team Area CSS End */
+  /* Testimonial Area CSS */
+  /* Testimonial Area CSS End */
+  /* Blog Area CSS */
+  /* Blog Area CSS End */
+  /* Blog Details Area CSS */
+  /* Blog Details Area CSS End */
+  /* Contact Area CSS */
+  /* Contact Area CSS End */
+  /* User All */
+  /* User All End */
+  /* Footer Area CSS */
+  /* Footer Area CSS End */
+  /* Error Area CSS */
+  /* Error Area CSS End */
+  /* Coming Soon */
+  /* Coming Soon End */
 }
-
 @media only screen and (max-width: 767px) and (max-width: 380px) {
   .appian-text {
     height: 900px;
   }
 }
-
 @media only screen and (max-width: 767px) and (min-width: 381px) and (max-width: 479px) {
   .appian-text {
     height: 700px;
   }
 }
-
 @media only screen and (max-width: 767px) and (min-width: 480px) and (max-width: 575px) {
   .appian-text {
     height: 700px;
   }
 }
-
 @media only screen and (max-width: 767px) {
-  /* Default CSS End */
-  /* Navbar CSS */
   .mobile-nav .logo img {
     max-width: 110px;
     height: 40px;
@@ -76,16 +117,24 @@
   .mobile-nav .logo .logo-two {
     display: none;
   }
+}
+@media only screen and (max-width: 767px) {
   .d-in-line {
     display: none;
   }
+}
+@media only screen and (max-width: 767px) {
   .side-nav-responsive {
     display: block;
   }
+}
+@media only screen and (max-width: 767px) {
   .search-overlay .search-form form .input-search {
     height: 50px;
     padding: 0 0 0 15px;
   }
+}
+@media only screen and (max-width: 767px) {
   .search-overlay .search-form {
     max-width: 100%;
     width: 100%;
@@ -103,6 +152,8 @@
     font-size: 18px;
     line-height: 35px;
   }
+}
+@media only screen and (max-width: 767px) {
   .side-nav-responsive .side-nav-inner .side-nav {
     text-align: center;
   }
@@ -111,8 +162,8 @@
     margin: 0 10px;
     text-align: center;
   }
-  /* Navbar CSS End */
-  /* Main Banner CSS */
+}
+@media only screen and (max-width: 767px) {
   .banner-content {
     padding-top: 110px;
     padding-bottom: 20px;
@@ -162,12 +213,18 @@
     line-height: 30px;
     font-size: 16px;
   }
+}
+@media only screen and (max-width: 767px) {
   .banner-shape {
     display: none;
   }
+}
+@media only screen and (max-width: 767px) {
   .banner-shape-right {
     display: none;
   }
+}
+@media only screen and (max-width: 767px) {
   .banner-img {
     position: inherit;
     top: 0;
@@ -177,6 +234,8 @@
     max-width: 100%;
     height: auto;
   }
+}
+@media only screen and (max-width: 767px) {
   .banner-area-two {
     background-image: none;
     background-color: #2966be;
@@ -185,6 +244,8 @@
   .banner-area-two::before {
     display: none;
   }
+}
+@media only screen and (max-width: 767px) {
   .banner-content-two h1 {
     font-size: 40px;
   }
@@ -204,13 +265,19 @@
     margin-left: 15px;
     top: 0px;
   }
+}
+@media only screen and (max-width: 767px) {
   .banner-img-2 {
     margin-top: 0;
     padding-bottom: 70px;
   }
+}
+@media only screen and (max-width: 767px) {
   .banner-bottom-shape {
     display: none;
   }
+}
+@media only screen and (max-width: 767px) {
   .banner-content-three {
     padding-top: 140px;
     padding-bottom: 30px;
@@ -232,6 +299,8 @@
     margin-left: 15px;
     top: -5px;
   }
+}
+@media only screen and (max-width: 767px) {
   .banner-img-3 {
     position: inherit;
     bottom: 0;
@@ -243,11 +312,13 @@
     max-width: 100%;
     height: auto;
   }
+}
+@media only screen and (max-width: 767px) {
   .banner-three-shape {
     display: none;
   }
-  /* Main Banner CSS End */
-  /* Inner Banner CSS */
+}
+@media only screen and (max-width: 767px) {
   .inner-banner {
     background-image: none;
     background-color: #0149b1;
@@ -280,11 +351,13 @@
   .inner-banner .inner-banner-shape {
     display: none;
   }
-  /* Inner Banner CSS End */
+}
+@media only screen and (max-width: 767px) {
   .schedule-shape {
     display: none;
   }
-  /* Brand Area CSS */
+}
+@media only screen and (max-width: 767px) {
   .brand-area {
     padding-bottom: 30px;
   }
@@ -295,20 +368,26 @@
     bottom: -40px;
     margin-bottom: 0;
   }
+}
+@media only screen and (max-width: 767px) {
   .brand-max {
     width: 100%;
     padding-left: 15px;
     padding-right: 15px;
   }
+}
+@media only screen and (max-width: 767px) {
   .brand-slider {
     max-width: 100%;
     padding-bottom: 0;
   }
-  /* Brand Area CSS End */
-  /* About Area CSS */
+}
+@media only screen and (max-width: 767px) {
   .about-shape {
     display: none;
   }
+}
+@media only screen and (max-width: 767px) {
   .about-content {
     margin-left: 0;
     margin-bottom: 30px;
@@ -331,9 +410,13 @@
     line-height: 46px;
     font-size: 14px;
   }
+}
+@media only screen and (max-width: 767px) {
   .about-img-2 {
     margin-bottom: 30px;
   }
+}
+@media only screen and (max-width: 767px) {
   .about-content-two h3 {
     font-size: 17px;
   }
@@ -344,6 +427,8 @@
     margin-right: 15px;
     margin-bottom: 30px;
   }
+}
+@media only screen and (max-width: 767px) {
   .about-btn-two .about-more-btn {
     padding: 10px 20px;
   }
@@ -351,10 +436,14 @@
     padding: 10px 20px;
     margin-left: 15px;
   }
+}
+@media only screen and (max-width: 767px) {
   .about-widget-img {
     margin-top: 30px;
     margin-bottom: 30px;
   }
+}
+@media only screen and (max-width: 767px) {
   .about-widget-content {
     margin-bottom: 30px;
   }
@@ -367,7 +456,8 @@
   .about-widget-content .about-widget-list ul li p {
     font-size: 16px;
   }
-  /* About Area CSS End */
+}
+@media only screen and (max-width: 767px) {
   .schedule-content {
     max-width: 100%;
     background-color: transparent;
@@ -376,23 +466,32 @@
   .schedule-content h2 {
     font-size: 24px;
   }
+}
+@media only screen and (max-width: 767px) {
   .schedule-content-shape {
     display: none;
   }
+}
+@media only screen and (max-width: 767px) {
   .serve-content p {
     margin-top: 5px;
     margin-bottom: 25px;
   }
+}
+@media only screen and (max-width: 767px) {
   .work-item-list-2 {
     margin-left: 0;
   }
-  /* Counter Area CSS */
+}
+@media only screen and (max-width: 767px) {
   .counter-area {
     background-image: none;
     background-color: #fdeae2;
     padding-top: 50px;
     padding-bottom: 20px;
   }
+}
+@media only screen and (max-width: 767px) {
   .single-counter {
     margin-top: 0;
     margin-bottom: 10px;
@@ -406,15 +505,21 @@
   .single-counter .content h3 {
     font-size: 35px;
   }
+}
+@media only screen and (max-width: 767px) {
   .counter-area-two {
     background-image: none;
     background-color: #2966be;
     height: auto;
     padding-bottom: 20px;
   }
+}
+@media only screen and (max-width: 767px) {
   .counter-shape-top {
     display: none;
   }
+}
+@media only screen and (max-width: 767px) {
   .counter-card {
     margin-bottom: 20px;
   }
@@ -424,17 +529,21 @@
   .counter-card h3 {
     font-size: 34px;
   }
-  /* Counter Area CSS End */
+}
+@media only screen and (max-width: 767px) {
   .progress-card {
     padding: 50px;
   }
   .progress-card h3 {
     font-size: 34px;
   }
-  /* Seo Area CSS */
+}
+@media only screen and (max-width: 767px) {
   .seo-area::before {
     display: none;
   }
+}
+@media only screen and (max-width: 767px) {
   .seo-width {
     max-width: 100%;
     padding: 50px 15px 0 15px;
@@ -442,6 +551,8 @@
   .seo-width h2 {
     font-size: 24px;
   }
+}
+@media only screen and (max-width: 767px) {
   .seo-form {
     margin-bottom: 30px;
   }
@@ -459,48 +570,68 @@
   .seo-form .seo-form-area .form-group .form-control.form-border {
     border-right: none;
   }
+}
+@media only screen and (max-width: 767px) {
   .seo-img {
     margin-left: auto;
     margin-right: auto;
     text-align: center;
   }
-  /* Seo Area CSS End */
-  /* Service Area CSS */
+}
+@media only screen and (max-width: 767px) {
   .service-area .col-lg-4:nth-child(1) .service-card-into {
     margin-top: 0;
   }
   .service-area .col-lg-4:nth-child(3) {
     margin-top: 0;
   }
+}
+@media only screen and (max-width: 767px) {
   .service-card-into .service-dots {
     display: none;
   }
+}
+@media only screen and (max-width: 767px) {
   .service-area-two {
     padding-bottom: 30px;
   }
+}
+@media only screen and (max-width: 767px) {
   .service-item::before {
     display: none;
   }
+}
+@media only screen and (max-width: 767px) {
   .service-area-three .section-title p {
     margin-bottom: 30px;
   }
+}
+@media only screen and (max-width: 767px) {
   .service-item-two {
     padding: 0 0 30px 0;
   }
+}
+@media only screen and (max-width: 767px) {
   .service-shape {
     display: none;
   }
+}
+@media only screen and (max-width: 767px) {
   .service-two-shape {
     display: none;
   }
+}
+@media only screen and (max-width: 767px) {
   .service-another {
     padding-top: 50px;
   }
+}
+@media only screen and (max-width: 767px) {
   .service-another-shape {
     display: none;
   }
-  /* Service Area CSS End */
-  /* Service Details Area CSS */
+}
+@media only screen and (max-width: 767px) {
   .service-content h2 {
     font-size: 26px;
     margin-bottom: 10px;
@@ -508,6 +639,8 @@
   .service-content p {
     margin-bottom: 20px;
   }
+}
+@media only screen and (max-width: 767px) {
   .content-widget-area .content-widget-text h2 {
     font-size: 26px;
     margin-bottom: 15px;
@@ -515,6 +648,8 @@
   .content-widget-area .content-widget-text p {
     margin-bottom: 20px;
   }
+}
+@media only screen and (max-width: 767px) {
   .service-widget-list {
     margin-top: 30px;
     margin-bottom: 0;
@@ -550,11 +685,13 @@
     line-height: 1;
     font-size: 16px;
   }
+}
+@media only screen and (max-width: 767px) {
   .content-widget-img {
     margin-bottom: 30px;
   }
-  /* Service Details Area CSS End */
-  /* History Area CSS */
+}
+@media only screen and (max-width: 767px) {
   .history-list {
     margin-top: 30px;
     margin-bottom: 0;
@@ -567,6 +704,8 @@
     margin-right: 30px;
     margin-bottom: 25px;
   }
+}
+@media only screen and (max-width: 767px) {
   .history-content h2 {
     font-size: 24px;
     margin-bottom: 10px;
@@ -574,13 +713,15 @@
   .history-content p {
     margin-bottom: 10px;
   }
+}
+@media only screen and (max-width: 767px) {
   .history-img {
     margin-bottom: 0;
     margin-left: auto;
     margin-right: auto;
   }
-  /* History Area CSS End */
-  /* Courses Area CSS */
+}
+@media only screen and (max-width: 767px) {
   .courses-card {
     padding: 30px 20px;
   }
@@ -602,7 +743,8 @@
     height: 50px;
     line-height: 50px;
   }
-  /* Courses Area CSS End */
+}
+@media only screen and (max-width: 767px) {
   .course-details-area .course-details-content h3 {
     text-align: center;
   }
@@ -627,13 +769,14 @@
   .course-details-area .course-rating.star {
     float: none;
   }
-  /* Work Area CSS */
+}
+@media only screen and (max-width: 767px) {
   .work-area {
     background-image: none;
     position: relative;
   }
   .work-area::before {
-    content: '';
+    content: "";
     position: absolute;
     z-index: -1;
     top: 0;
@@ -643,15 +786,19 @@
     height: 100%;
     background-color: #fdeae2;
   }
+}
+@media only screen and (max-width: 767px) {
   .work-shape {
     display: none;
   }
+}
+@media only screen and (max-width: 767px) {
   .work-area-two {
     background-image: none;
     position: relative;
   }
   .work-area-two::before {
-    content: '';
+    content: "";
     position: absolute;
     z-index: -1;
     top: 0;
@@ -661,11 +808,13 @@
     height: 100%;
     background-color: #fdeae2;
   }
+}
+@media only screen and (max-width: 767px) {
   .work-img-2 {
     margin-bottom: 30px;
   }
-  /* Work Area CSS End */
-  /* Mission Area CSS */
+}
+@media only screen and (max-width: 767px) {
   .mission-content {
     margin-left: auto;
     margin-right: auto;
@@ -677,26 +826,36 @@
     margin-right: 15px;
     margin-bottom: 30px;
   }
+}
+@media only screen and (max-width: 767px) {
   .mission-img {
     margin-left: auto;
     margin-right: auto;
   }
+}
+@media only screen and (max-width: 767px) {
   .mission-shape {
     display: none;
   }
-  /* Mission Area CSS End */
-  /* Pricing Area CSS */
+}
+@media only screen and (max-width: 767px) {
   .pricing-area .section-title {
     margin-bottom: 30px;
   }
+}
+@media only screen and (max-width: 767px) {
   .pricing-shape {
     display: none;
   }
+}
+@media only screen and (max-width: 767px) {
   .price-width {
     margin-top: 35px;
     max-width: 100%;
     padding: 50px 15px 20px 15px;
   }
+}
+@media only screen and (max-width: 767px) {
   .pricing-card {
     margin-bottom: 30px;
   }
@@ -722,34 +881,43 @@
     margin-top: 15px;
     padding: 9px 24px;
   }
-  /* Pricing Area CSS End */
-  /* Team Area CSS */
+}
+@media only screen and (max-width: 767px) {
   .team-area.pt-100 {
     padding-top: 0;
   }
+}
+@media only screen and (max-width: 767px) {
   .team-shape {
     display: none;
   }
+}
+@media only screen and (max-width: 767px) {
   .team-two-shape {
     display: none;
   }
+}
+@media only screen and (max-width: 767px) {
   .team-card {
     margin-top: 30px;
   }
   .team-card .content {
-    -webkit-transform: scale(1);
-            transform: scale(1);
+    transform: scale(1);
   }
+}
+@media only screen and (max-width: 767px) {
   .team-rotated {
-    -webkit-transform: rotate(0deg);
-            transform: rotate(0deg);
+    transform: rotate(0deg);
     margin-top: 30px;
   }
+}
+@media only screen and (max-width: 767px) {
   .team-rotated-2 {
-    -webkit-transform: rotate(0deg);
-            transform: rotate(0deg);
+    transform: rotate(0deg);
     margin-top: 30px;
   }
+}
+@media only screen and (max-width: 767px) {
   .team-area-two {
     position: relative;
   }
@@ -768,15 +936,19 @@
     top: 40%;
     right: 0;
   }
-  /* Team Area CSS End */
-  /* Testimonial Area CSS */
+}
+@media only screen and (max-width: 767px) {
   .testimonial-area {
     background-image: none;
     background-color: #fdfdfd;
   }
+}
+@media only screen and (max-width: 767px) {
   .testimonial-area-mb {
     margin-bottom: 0;
   }
+}
+@media only screen and (max-width: 767px) {
   .testimonial-list {
     height: 350px;
     border: 15px solid #ffe8df;
@@ -799,6 +971,8 @@
   .testimonial-list .list-img-5 {
     right: 15%;
   }
+}
+@media only screen and (max-width: 767px) {
   .testimonial-title {
     margin-top: 30px;
   }
@@ -808,16 +982,24 @@
     margin-left: 0;
     text-align: center;
   }
+}
+@media only screen and (max-width: 767px) {
   .testimonial-slider {
     margin-left: auto;
     margin-right: auto;
   }
+}
+@media only screen and (max-width: 767px) {
   .testimonial-item p {
     font-size: 17px;
   }
+}
+@media only screen and (max-width: 767px) {
   .testimonial-title-2 h2 {
     font-size: 25px;
   }
+}
+@media only screen and (max-width: 767px) {
   .testimonial-content {
     height: 400px;
   }
@@ -833,6 +1015,8 @@
   .testimonial-content .testimonial-shape2 {
     top: 35%;
   }
+}
+@media only screen and (max-width: 767px) {
   .testimonial-slider-area {
     background-image: none;
     background-color: #ff3900;
@@ -846,16 +1030,19 @@
     right: 40% !important;
     bottom: -40px;
   }
+}
+@media only screen and (max-width: 767px) {
   .testimonial-item-2 p {
     font-size: 17px;
   }
+}
+@media only screen and (max-width: 767px) {
   .testimonial-text {
     background-image: none;
     width: 150px;
     height: 140px;
     background-color: #ffffff;
-    -webkit-box-shadow: 0 0 15px #f1f1f1;
-            box-shadow: 0 0 15px #f1f1f1;
+    box-shadow: 0 0 15px #f1f1f1;
     border-radius: 50px 30px 50px 20px;
   }
   .testimonial-text h3 {
@@ -864,23 +1051,31 @@
   .testimonial-text span {
     font-size: 14px;
   }
+}
+@media only screen and (max-width: 767px) {
   .testimonial-widget-item p {
     font-size: 18px;
   }
-  /* Testimonial Area CSS End */
-  /* Blog Area CSS */
+}
+@media only screen and (max-width: 767px) {
   .blog-area {
     background-image: none;
     background-color: #fdeae2;
   }
+}
+@media only screen and (max-width: 767px) {
   .blog-title {
     margin-bottom: 20px;
   }
+}
+@media only screen and (max-width: 767px) {
   .blog-btn {
     float: none;
     margin-top: 0;
     margin-bottom: 25px;
   }
+}
+@media only screen and (max-width: 767px) {
   .blog-card .content {
     padding: 20px 15px;
   }
@@ -890,14 +1085,18 @@
   .blog-card .content h3 {
     font-size: 20px;
   }
+}
+@media only screen and (max-width: 767px) {
   .blog-shape {
     display: none;
   }
+}
+@media only screen and (max-width: 767px) {
   .blog-area-widget .title h2 {
     font-size: 26px;
   }
-  /* Blog Area CSS End */
-  /* Blog Details Area CSS */
+}
+@media only screen and (max-width: 767px) {
   .blog-article .article-content h2 {
     font-size: 26px;
   }
@@ -999,48 +1198,66 @@
   .blog-article .comments-wrap ul li.ml-30 {
     margin-left: 0;
   }
-  /* Blog Details Area CSS End */
+}
+@media only screen and (max-width: 767px) {
   .data-table-area {
     padding-top: 50px;
     padding-bottom: 50px;
     background-image: none;
     background-color: #2966be;
   }
+}
+@media only screen and (max-width: 767px) {
   .data-table-content {
     margin-top: 0;
   }
   .data-table-content h2 {
     font-size: 24px;
   }
+}
+@media only screen and (max-width: 767px) {
   .project-area {
     padding-top: 50px;
     padding-bottom: 40px;
   }
+}
+@media only screen and (max-width: 767px) {
   .project-shape {
     display: none;
   }
+}
+@media only screen and (max-width: 767px) {
   .project-content h2 {
     font-size: 24px;
     margin-bottom: 20px;
   }
-  /* Contact Area CSS */
+}
+@media only screen and (max-width: 767px) {
   .contact-card {
     padding: 10px 30px 40px 20px;
   }
+}
+@media only screen and (max-width: 767px) {
   .contact-section {
     background-color: #fef4f0;
   }
   .contact-section::before {
     display: none;
   }
+}
+@media only screen and (max-width: 767px) {
   .contact-img {
     margin-left: auto;
     margin-right: auto;
   }
+}
+@media only screen and (max-width: 767px) {
   .contact-wrap {
     margin-left: auto;
     margin-right: auto;
   }
+}
+@media only screen and (max-width: 767px) {
   .contact-form {
     padding: 30px 20px 25px 20px;
     max-width: 800px;
@@ -1051,8 +1268,8 @@
   .contact-form .section-title h2 {
     font-size: 26px;
   }
-  /* Contact Area CSS End */
-  /* User All */
+}
+@media only screen and (max-width: 767px) {
   .user-all-form .contact-form .agree-label label {
     font-size: 15px;
   }
@@ -1061,31 +1278,39 @@
     float: left;
     font-size: 15px;
   }
-  /* User All End */
-  /* Footer Area CSS */
+}
+@media only screen and (max-width: 767px) {
   .footer-img img {
     max-width: 130px;
   }
+}
+@media only screen and (max-width: 767px) {
   .footer-social-icon {
     margin-bottom: 30px;
   }
   .footer-social-icon .social-link {
     float: none;
   }
+}
+@media only screen and (max-width: 767px) {
   .footer-widget.ps-5, .footer-widget.px-5 {
     padding-left: 0 !important;
   }
+}
+@media only screen and (max-width: 767px) {
   .copy-right-area .copy-right-text p {
     padding: 0 15px;
     text-align: center;
   }
+}
+@media only screen and (max-width: 767px) {
   .copy-right-list {
     float: none;
     text-align: center;
     margin-top: 7px;
   }
-  /* Footer Area CSS End */
-  /* Error Area CSS */
+}
+@media only screen and (max-width: 767px) {
   .error-area {
     height: 100vh;
     padding-top: 70px;
@@ -1099,8 +1324,8 @@
     font-size: 16px;
     padding: 0 15px;
   }
-  /* Error Area CSS End */
-  /* Coming Soon */
+}
+@media only screen and (max-width: 767px) {
   .coming-soon-area .coming-soon-content {
     padding-top: 30px;
     padding-bottom: 20px;
@@ -1147,7 +1372,8 @@
     width: 100%;
     height: 50px;
   }
-  /* Coming Soon End */
+}
+@media only screen and (max-width: 767px) {
   .pagination-area {
     margin-top: 0;
   }
@@ -1156,7 +1382,6 @@
     margin-right: 0;
   }
 }
-
 @media only screen and (min-width: 576px) and (max-width: 767px) {
   .about-area-two .container-fluid {
     width: 540px;
@@ -1276,7 +1501,6 @@
   }
   /* User All End */
 }
-
 @media only screen and (min-width: 768px) and (max-width: 991px) {
   /* Default CSS */
   body {
@@ -1787,7 +2011,7 @@
     position: relative;
   }
   .work-area::before {
-    content: '';
+    content: "";
     position: absolute;
     z-index: -1;
     top: 0;
@@ -1805,7 +2029,7 @@
     position: relative;
   }
   .work-area-two::before {
-    content: '';
+    content: "";
     position: absolute;
     z-index: -1;
     top: 0;
@@ -1903,17 +2127,14 @@
     margin-top: 30px;
   }
   .team-card .content {
-    -webkit-transform: scale(1);
-            transform: scale(1);
+    transform: scale(1);
   }
   .team-rotated {
-    -webkit-transform: rotate(0deg);
-            transform: rotate(0deg);
+    transform: rotate(0deg);
     margin-top: 30px;
   }
   .team-rotated-2 {
-    -webkit-transform: rotate(0deg);
-            transform: rotate(0deg);
+    transform: rotate(0deg);
     margin-top: 30px;
   }
   .team-area-two {
@@ -2157,7 +2378,6 @@
   }
   /* Coming Soon End */
 }
-
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
   .main-nav nav .navbar-nav .nav-item a {
     margin-left: 0px;
@@ -2352,7 +2572,6 @@
     font-size: 15px;
   }
 }
-
 @media only screen and (min-width: 1400px) {
   .banner-content h1 {
     max-width: 700px;
@@ -2370,7 +2589,6 @@
     font-size: 15px;
   }
 }
-
 @media only screen and (min-width: 1800px) {
   .banner-shape-right {
     position: absolute;
@@ -2462,7 +2680,6 @@
     padding: 235px 110px 85px 110px;
   }
 }
-
 @media only screen and (min-width: 1200px) {
   .container-max {
     max-width: 1320px !important;
@@ -2478,21 +2695,17 @@
     border-bottom: 1px solid #e4e4e4;
   }
 }
-
 @media only screen and (min-width: 1350px) {
   .container {
     max-width: 1320px !important;
     margin: 0 auto;
   }
 }
-
 @media (max-width: 767px) {
   .banner-img-2 {
     height: 245px;
   }
   .footer-sm {
-    -ms-flex-wrap: wrap;
-        flex-wrap: wrap;
+    flex-wrap: wrap;
   }
-}
-/*# sourceMappingURL=responsive.css.map */
+}/*# sourceMappingURL=responsive.css.map */
