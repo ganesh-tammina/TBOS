@@ -6931,7 +6931,7 @@ area {
 }
 .first-section .first-row {
   height: 100vh;
-  align-items: center;
+  align-items: flex-end;
 }
 @media (min-width: 1350px) {
   .first-section .first-row {
@@ -7110,10 +7110,10 @@ area {
   width: 100%;
   display: grid;
   place-content: center;
-  height: 170vh;
-  background-position: top;
+  background-position: bottom;
   position: relative;
   margin-bottom: 10rem;
+  padding-bottom: 5rem;
 }
 @media (min-width: 320px) and (max-width: 480px) {
   .methodology {
@@ -8098,7 +8098,7 @@ area {
   width: 100px;
   height: 100px;
   background-size: contain;
-  right: 0;
+  left: 0;
   top: -83px;
   animation: rotating 7s linear infinite;
 }
@@ -8125,7 +8125,6 @@ area {
 @media (max-width: 991px) {
   .tammina-session .design-card-support {
     height: auto;
-    padding: 10px 0;
   }
 }
 .tammina-session .design-card-support .Connect-content {
